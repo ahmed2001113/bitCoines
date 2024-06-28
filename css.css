@@ -17,6 +17,9 @@ nav{
 .navIcon{
     width: 120px;
 }
+.buttonMob2{
+    display: none;
+}
 .header{
 width: 100%; 
 display: flex;
@@ -346,7 +349,17 @@ background-color: grey;
 .l3{
     width: 270px;
 }
+.button2{
+    display: block;
+    margin-top: 30px;
+}
 @media (max-width:600px) {
+    .button2{
+        display: none;
+    }
+    .buttonMob2{
+        display: block;
+    }
     .button-mob-2 {
         border-radius: 200px;
         background: linear-gradient(
@@ -437,6 +450,12 @@ background-color: grey;
     }
 }
 @media (max-width:520px) {
+    .button2{
+        display: none;
+    }
+    .buttonMob2{
+        display: block;
+    }
     .l1{
         width: 80px;
        }
@@ -505,6 +524,9 @@ background-color: grey;
     }
 }
 @media (max-width:430px) {
+    .buttonMob2{
+        display: block;
+    }
     .l1{
         width: 80px;
        }
@@ -575,8 +597,17 @@ background-color: grey;
         height: 8px;
         width: 8px;
     }
+    .button2{
+        display: none;
+    }
 }
 @media (max-width:300px) {
+    .button2{
+        display: none;
+    }
+    .buttonMob2{
+        display: block;
+    }
     .l1{
         width: 80px;
        }
