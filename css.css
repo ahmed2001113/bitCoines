@@ -365,6 +365,10 @@ background-color: grey;
     display: block;
     margin-top: 30px;
 }
+a{
+    text-decoration: none !important;
+    color:#b6bdc7  !important;    
+}
 @media (max-width:600px) {
     .button2{
         display: none;
