@@ -102,6 +102,7 @@ flex-direction: row;
     color: #e0bc85 !important;
     font-size: 40px;
 }
+
 .h64{
     color: #e0bc85 !important;
     font-size: 16px;
@@ -235,8 +236,16 @@ background-color: grey;
     border-radius: 10px;
     background-color: #1b1e28 !important;
     height: 100%;
+    display: flex ;
+    align-items: center;
+}
+.l4{
+    width: 80px;
 }
 .development-icon-mob-2{
+    width: 25px;
+}
+.development-icon-mob-3{
     width: 25px;
 }
 .telegram{
@@ -349,6 +358,9 @@ background-color: grey;
 .l3{
     width: 270px;
 }
+.l5{
+    width: 80px ;
+}
 .button2{
     display: block;
     margin-top: 30px;
@@ -403,6 +415,7 @@ background-color: grey;
     .h63{
         font-size: 14px;
     }
+ 
     .h64{
         font-size: 13px;
     }
@@ -481,6 +494,7 @@ background-color: grey;
     .h63{
         font-size: 13px;
     }
+   
     .h64{
         font-size: 12px;
     }
@@ -524,6 +538,18 @@ background-color: grey;
     }
 }
 @media (max-width:430px) {
+    .l4{
+        width: 85px;
+    }
+    .l5{
+        width: 79px;
+    }
+    .l6{
+        width: 60px;
+    }
+    .development-icon-mob-3{
+        width: 20px;
+    }
     .buttonMob2{
         display: block;
     }
@@ -531,7 +557,8 @@ background-color: grey;
         width: 80px;
        }
     .l2{
-        width: 125px;
+        width: 135px;
+        margin-top: 1px;
        }
     .l3{
         width: 65px;
@@ -601,75 +628,79 @@ background-color: grey;
         display: none;
     }
 }
-@media (max-width:300px) {
-    .button2{
-        display: none;
-    }
-    .buttonMob2{
-        display: block;
-    }
-    .l1{
-        width: 80px;
-       }
-    .l2{
-        width:125px;
-       }
-    .l3{
-        width:65px;
-       }
-    .chart{
-        height: 8px;
-        width: 8px;
-    }
-    .pTag{
-        font-size: 6px !important;
-    }   
-    .h6{
-        font-size: 8px;
-    }
-    .h62{
-        font-size: 9px;
-        line-height: 10px;
-    }
-    .h65{
-        font-size: 9px;
-    }
-    .h63{
-        font-size: 8px;
-    }
-    .h64{
-        font-size: 7px;
-    }
-    .pTag4{
-        font-size: 6px;
-    }
-    .pTag5{
-        font-size: 4px;
-    }
-    .pTag6{
-        font-size: 7px;
-    }
-    .pTag2{
-        font-size: 6px !important;
-    }   
-    .description{
-        font-size: 6px !important;
-            margin-top: -10px;
-    }   
-    .description1{
-        font-size: 6px !important;
-            margin-top: -10px;
-    }   
-    .pTag3{
-        font-size: 7px;
-    }
-    .ipo{
-        font-size: 7px;
-    }
-    .ipo3{
-        font-size: 7px;
-    }
-    .ipo4{
-        font-size: 6px;
-    }
-}
+    /* @media (max-width:300px) {
+        .button2{
+            display: none;
+        }
+        .buttonMob2{
+            display: block;
+        }
+        .l1{
+            width: 80px;
+        }
+        .l2{
+            width:125px;
+        }
+        .l3{
+            width:65px;
+        }
+        .chart{
+            height: 8px;
+            width: 8px;
+        }
+        .pTag{
+            font-size: 6px !important;
+        }   
+        .h6{
+            font-size: 8px;
+        }
+        .h62{
+            font-size: 9px;
+            line-height: 10px;
+        }
+        .h65{
+            font-size: 9px;
+        }
+        .h63{
+            font-size: 8px;
+        }
+        .step{
+            font-size: 8px;
+            margin-bottom: 10px;
+        }
+        .h64{
+            font-size: 7px;
+        }
+        .pTag4{
+            font-size: 6px;
+        }
+        .pTag5{
+            font-size: 4px;
+        }
+        .pTag6{
+            font-size: 7px;
+        }
+        .pTag2{
+            font-size: 6px !important;
+        }   
+        .description{
+            font-size: 6px !important;
+                margin-top: -10px;
+        }   
+        .description1{
+            font-size: 6px !important;
+                margin-top: -10px;
+        }   
+        .pTag3{
+            font-size: 7px;
+        }
+        .ipo{
+            font-size: 7px;
+        }
+        .ipo3{
+            font-size: 7px;
+        }
+        .ipo4{
+            font-size: 6px;
+        }
+    } */
