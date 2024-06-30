@@ -508,6 +508,134 @@ color: #627EEA;
     }
 }
 
+@media (max-width:550px) {
+    .l7{
+        width: 85px ;
+    }
+    .mobNav{
+        display: block !important;
+    }
+    .colors{
+        display: flex;
+        align-items: center;       
+    }
+    .button-mob-2 {
+        border-radius: 200px;
+        background: linear-gradient(
+          93.23deg,
+          #13161f,
+          #525661 26.5%,
+          #1e212a 61.5%,
+          #494f5c
+        );
+        padding: 2px 22px;
+        cursor: pointer;
+        font-size: 12px;
+        color: #f0f0f2;
+        border: 0px solid black;
+      }
+      .telegram{
+        padding: 15px 10px;
+      }
+    .image1{
+        width: 148px;
+    }
+    .button2{
+        display: none;
+    }
+    .buttonMob2{
+        display: block;
+        padding: 5px 25px;
+    }
+    .l1{
+        width: 100px;
+       }
+    .l2{
+        width: 185px;
+        margin-top: 0px;
+       }
+    .l3{
+        width: 92px;
+       }
+    .ipo2{
+        font-size: 13px;
+    }
+    .h6{
+        font-size: 14px;
+    }
+    .h62{
+        font-size: 15px;
+        line-height: 10px;
+        }
+    .h65{
+        font-size: 15px;
+    }
+    .h63{
+        font-size: 14px;
+    }
+   
+    .h64{
+        font-size: 12px;
+    }
+    .pTag4{
+        font-size: 13px;
+    }
+    .pTag5{
+        font-size: 10px;
+    }
+    .pTag6{
+        font-size: 14px;
+    }
+    .pTag3{
+        font-size: 12px;
+    }
+    .pTag7{
+        font-size: 11px;
+    }
+    .ipo{
+        font-size: 12px;
+    }
+    .ipo3{
+        font-size: 12px;
+    }
+    .ipo4{
+        font-size: 10px;
+    }
+    .pTag{
+        font-size: 13px !important;
+    }   
+    .pTag2{
+        font-size: 13px !important;
+    }
+    .description{
+        font-size: 12px !important;
+            margin-top: -10px;
+    }   
+    .description1{
+        font-size: 11px !important;
+            margin-top: 10px;
+    }   
+    .description2{
+        font-size: 11px !important;
+            margin-top: -10px;
+    }   
+    .font12{
+        font-size: 13px;
+    }
+    .l4{
+        width: 120px;
+    }
+    .l5{
+        width: 110px;
+    }
+    .footerImage{
+        width: 100px;
+      }
+      .footerImage2{
+        width: 95px;
+        margin-bottom: 7px;
+      }
+}
 @media (max-width:500px) {
     .l7{
         width: 85px ;
@@ -752,5 +880,23 @@ color: #627EEA;
     .button2{
         display: none;
     }
+    .image1{
+        width: 90px;
+    }
+    .button-mob-2 {
+        border-radius: 200px;
+        background: linear-gradient(
+          93.23deg,
+          #13161f,
+          #525661 26.5%,
+          #1e212a 61.5%,
+          #494f5c
+        );
+        padding: 0px 20px;
+        cursor: pointer;
+        font-size: 10px;
+        color: #f0f0f2;
+        border: 0px solid black;
+      }
 }
    
