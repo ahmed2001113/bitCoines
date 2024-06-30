@@ -3,6 +3,10 @@ box-sizing: border-box;
 padding: 0 ;
 }
 
+html {
+    scroll-behavior: smooth;
+}  
+
 body{
     margin:0;
     padding: 0;
@@ -25,6 +29,7 @@ width: 100%;
 display: flex;
 flex-direction: row;
 }
+
 .pTag{
     color: rgba(255, 255, 255, 0.750);
     font-size: 40px !important;
@@ -102,6 +107,7 @@ flex-direction: row;
     color: #e0bc85 !important;
     font-size: 40px;
 }
+
 .h64{
     color: #e0bc85 !important;
     font-size: 16px;
@@ -128,7 +134,11 @@ flex-direction: row;
     font-size: 35px; 
     color: #f0f0f2; 
     text-align: center;
-
+}
+.description2{
+    font-size: 35px; 
+    color: #f0f0f2; 
+    text-align: center;
 }
 .our-community-message-pic-mob1-wrapper {
     position: relative;
@@ -235,8 +245,16 @@ background-color: grey;
     border-radius: 10px;
     background-color: #1b1e28 !important;
     height: 100%;
+    display: flex ;
+    align-items: center;
+}
+.l4{
+    width: 80px;
 }
 .development-icon-mob-2{
+    width: 25px;
+}
+.development-icon-mob-3{
     width: 25px;
 }
 .telegram{
@@ -283,7 +301,7 @@ background-color: grey;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensures the image covers the container */
+    object-fit: cover; 
     border-radius: 10px;
 }
 .whitePapper{
@@ -303,7 +321,7 @@ background-color: grey;
 .frequently{
     width: 100%;
     height: 70px;
-    border: 1px solid #e0bc8557;
+    border: 1px solid #71757f;
     border-radius: 10px;
 }
 .firstdiv .IconFooter{
@@ -324,6 +342,9 @@ background-color: grey;
 }
 .IconFooter img{
     width: 20px !important;
+}
+.IconFooter2 img{
+    width: 35px !important;
 }
 .secoundDiv{
     background-color: #272a35 !important;
@@ -349,11 +370,85 @@ background-color: grey;
 .l3{
     width: 270px;
 }
+.l5{
+    width: 80px ;
+}
 .button2{
     display: block;
     margin-top: 30px;
 }
+a{
+    text-decoration: none !important;
+    color:#b6bdc7  !important;    
+}
+.sidebar{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: #1B1E28;
+    top: 0;
+    right: 100vw;
+    transition: 0.3s;
+    overflow-y: scroll;
+}
+.connectWallet{
+border: 1px solid #627EEA;
+padding: 6px 19px;
+border-radius: 10px;
+width: 85%;
+color: #627EEA;
+}
+.mobNav{
+    display: none  !important;
+    padding-top: 42px;
+}
+.swapBtn{
+    background-color: #525661;
+    border-radius: 10px;
+    padding: 5px 15px;
+    border: 1px solid #525661;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+}
+.swabDiv1{
+    border: 1px solid #e0bc85;
+    background-color: #1b1e28;
+    border-radius: 5px;
+}
+.swabDiv2{
+    border: 1px solid #627eea;
+    background-color: #1b1e28;
+    border-radius: 5px;
+}
+.btn2{
+    background-color: #272a35;
+    color: #fff;
+    border-radius: 3px;  
+    padding: 1px 7px;
+    border: 1px solid #272a35;
+    font-size: 14px;
+}
+.btn1{
+border: 1px solid white;
+border-radius: 10px;
+padding: 0px 7px;
+background-color: transparent;
+color: white;
+font-size: 12px;
+}
+.arrow_icon{
+    width: 28px;
+}
+@media (max-width:800px) {
+.mobNav{
+    display: block !important;
+}
+}
 @media (max-width:600px) {
+    .mobNav{
+        display: block !important;
+    }
     .button2{
         display: none;
     }
@@ -403,6 +498,7 @@ background-color: grey;
     .h63{
         font-size: 14px;
     }
+ 
     .h64{
         font-size: 13px;
     }
@@ -449,38 +545,74 @@ background-color: grey;
         font-size: 13px;
     }
 }
-@media (max-width:520px) {
+
+
+@media (max-width:550px) {
+    .l7{
+        width: 95px ;
+    }
+    .mobNav{
+        display: block !important;
+    }
+    .colors{
+        display: flex;
+        align-items: center;       
+    }
+    .button-mob-2 {
+        border-radius: 200px;
+        background: linear-gradient(
+          93.23deg,
+          #13161f,
+          #525661 26.5%,
+          #1e212a 61.5%,
+          #494f5c
+        );
+        padding: 2px 22px;
+        cursor: pointer;
+        font-size: 12px;
+        color: #f0f0f2;
+        border: 0px solid black;
+      }
+      .telegram{
+        padding: 15px 10px;
+      }
+    .image1{
+        width: 148px;
+    }
     .button2{
         display: none;
     }
     .buttonMob2{
         display: block;
+        padding: 5px 25px;
     }
     .l1{
-        width: 80px;
+        width: 100px;
        }
     .l2{
-        width: 125px;
+        width: 185px;
+        margin-top: 0px;
        }
     .l3{
-        width: 65px;
+        width: 92px;
        }
     .ipo2{
-        font-size: 12px;
+        font-size: 13px;
     }
     .h6{
         font-size: 14px;
     }
     .h62{
-        font-size: 14px;
+        font-size: 15px;
         line-height: 10px;
         }
     .h65{
         font-size: 15px;
     }
     .h63{
-        font-size: 13px;
+        font-size: 14px;
     }
+   
     .h64{
         font-size: 12px;
     }
@@ -496,6 +628,9 @@ background-color: grey;
     .pTag3{
         font-size: 12px;
     }
+    .pTag7{
+        font-size: 11px;
+    }
     .ipo{
         font-size: 12px;
     }
@@ -506,10 +641,10 @@ background-color: grey;
         font-size: 10px;
     }
     .pTag{
-        font-size: 12px !important;
+        font-size: 13px !important;
     }   
     .pTag2{
-        font-size: 12px !important;
+        font-size: 13px !important;
     }
     .description{
         font-size: 12px !important;
@@ -517,24 +652,79 @@ background-color: grey;
     }   
     .description1{
         font-size: 11px !important;
+            margin-top: 10px;
+    }   
+    .description2{
+        font-size: 11px !important;
             margin-top: -10px;
     }   
     .font12{
-        font-size: 12px;
+        font-size: 13px;
     }
+    .l4{
+        width: 120px;
+    }
+    .l5{
+        width: 110px;
+    }
+    .footerImage{
+        width: 100px;
+      }
+      .footerImage2{
+        width: 95px;
+        margin-bottom: 7px;
+      }
 }
+
 @media (max-width:430px) {
+    .l7{
+        width: 95px ;
+    }
+    .telegram{
+        padding-bottom: .25rem !important;
+        padding-top: .5rem !important;
+        padding-right: .5rem !important;
+        padding-left: .5rem !important;
+      }
+      .footerImage2{
+        width: 70px;
+      }
+      .footerImage{
+        width: 85px;
+      }
+    .mobNav{
+        display: block !important;
+    }
+    .l4{
+        width: 130px;
+    }
+    .l6{
+        width: 65px;
+    }
+    .l5{
+        width: 90px;
+    }
+    .l6{
+        width: 70px;
+    }
+    .development-icon-mob-3{
+        width: 20px;
+    }
+    .development-icon-mob-4{
+        width: 25px;
+    }
     .buttonMob2{
         display: block;
     }
     .l1{
-        width: 80px;
+        width: 90px;
        }
     .l2{
-        width: 125px;
+        width: 145px;
+        margin-top: 1px;
        }
     .l3{
-        width: 65px;
+        width: 75px;
        }
     .ipo2{
         font-size: 9px;
@@ -543,11 +733,11 @@ background-color: grey;
         font-size: 11px;
     }
     .h62{
-        font-size: 11px;
+        font-size: 12px;
         line-height: 10px;
     }
     .h65{
-        font-size: 12px;
+        font-size: 13px;
     }
     .h63{
         font-size: 10px;
@@ -571,6 +761,9 @@ background-color: grey;
         font-size: 8px;
     }
     .pTag3{
+        font-size: 9px;
+    }
+    .pTag7{
         font-size: 9px;
     }
     .ipo{
@@ -584,9 +777,13 @@ background-color: grey;
     }
     .description{
         font-size: 9px !important;
-            margin-top: -10px;
+        margin-top: -20px;
     }   
     .description1{
+        font-size: 9px !important;
+            margin-top: -10px;
+    }   
+    .description2{
         font-size: 8px !important;
             margin-top: -10px;
     }   
@@ -600,76 +797,23 @@ background-color: grey;
     .button2{
         display: none;
     }
+    .image1{
+        width: 90px;
+    }
+    .button-mob-2 {
+        border-radius: 200px;
+        background: linear-gradient(
+          93.23deg,
+          #13161f,
+          #525661 26.5%,
+          #1e212a 61.5%,
+          #494f5c
+        );
+        padding: 0px 20px;
+        cursor: pointer;
+        font-size: 10px;
+        color: #f0f0f2;
+        border: 0px solid black;
+      }
 }
-@media (max-width:300px) {
-    .button2{
-        display: none;
-    }
-    .buttonMob2{
-        display: block;
-    }
-    .l1{
-        width: 80px;
-       }
-    .l2{
-        width:125px;
-       }
-    .l3{
-        width:65px;
-       }
-    .chart{
-        height: 8px;
-        width: 8px;
-    }
-    .pTag{
-        font-size: 6px !important;
-    }   
-    .h6{
-        font-size: 8px;
-    }
-    .h62{
-        font-size: 9px;
-        line-height: 10px;
-    }
-    .h65{
-        font-size: 9px;
-    }
-    .h63{
-        font-size: 8px;
-    }
-    .h64{
-        font-size: 7px;
-    }
-    .pTag4{
-        font-size: 6px;
-    }
-    .pTag5{
-        font-size: 4px;
-    }
-    .pTag6{
-        font-size: 7px;
-    }
-    .pTag2{
-        font-size: 6px !important;
-    }   
-    .description{
-        font-size: 6px !important;
-            margin-top: -10px;
-    }   
-    .description1{
-        font-size: 6px !important;
-            margin-top: -10px;
-    }   
-    .pTag3{
-        font-size: 7px;
-    }
-    .ipo{
-        font-size: 7px;
-    }
-    .ipo3{
-        font-size: 7px;
-    }
-    .ipo4{
-        font-size: 6px;
-    }
-}
+   
