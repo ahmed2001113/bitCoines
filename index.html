@@ -11,8 +11,18 @@
 
 <body>
     <nav>
-        <div class="row px-4" style="padding-top: 42px;">
-            <div class="col-2 text-start"><img src="./public/jammenu.svg"></div>
+        <!-- <div class="row px-4 labNav">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-6"><img src="./public/jammenu.svg"></div>
+                    <div class="col-6">
+                        <div> <img class="ant-designswap-outlined-icon" alt="" src="./public/antdesignswapoutlined.svg"> <h3>Swap</h3> <img class="gear-icon2" loading="lazy" alt="" src="./public/gear.svg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>  -->
+        <div class="row px-4 " style="padding-top:42px;">
+            <div class="col-2 text-start" id="openSideBar"><img src="./public/jammenu.svg"></div>
             <div class="col-8 text-center"><img class="navIcon" src="./public/logo-moc@2x.png"></div>
             <div class="col-2 text-end "><img class="gear-icon" loading="lazy" alt="" src="./public/gear.svg"></div>
         </div>
@@ -38,12 +48,13 @@
             </div>
         </div>
     </div>
-    <div class="row ">
+    <div class="row" id="whoAreWe">
         <div class="col-12 px-3">
             <h6 class="h62 text-center">Who Are We ?<br>
                 <img class="who-are-we-line-mob-2 l1" src="./public/who-are--we--line-mob-2.svg">
-            </h6><br>   
-            <p class="description"> About As <br> An American registered company operating in the field of cryptocurrencies, inspired
+            </h6><br>
+            <p class="description"> About As <br> An American registered company operating in the field of
+                cryptocurrencies, inspired
                 by the great idea of Bitcoin, we have conceived the Bitcoin Limited Edition project to add a unique
                 feature for those how own it.
             </p>
@@ -59,11 +70,12 @@
                 <img class="squareImage" src="./public/our-community-message-pic-mob-2-1@2x.png">
             </div>
         </div>
-        <div class="p-1 col-6">
+        <div class="p-1 col-6" id="ourMessage">
             <h6 class="h62 text-start">&nbsp;Our Community Message<br>
-                <img class="l2"  src="./public/who-are--we--line-mob-2.svg">
-            </h6> 
-            <p class="description1 p-1 pt-2 text-start">To the Bitcoin Limited Edition community: Each of you plays an essential
+                <img class="l2" src="./public/who-are--we--line-mob-2.svg">
+            </h6>
+            <p class="description2 p-1 pt-2 text-start">To the Bitcoin Limited Edition community: Each of you plays an
+                essential
                 role in developing this project through your dedication and by leveraging your relationships to be part
                 of our marketing efforts. Our primary goal is the widespread expansion of our community, and together,
                 we can achieve this vision. We possess all the necessary resources to advance this idea, and collective
@@ -71,17 +83,20 @@
             </p>
         </div>
     </div>
-    <div class="row m-2 g-1">
+    <div class="row m-2 g-1" id="ipo">
         <div class="col-6 p-2">
             <h6 class="h62 text-start">IPO Methods<br>
-                <img class="l3"  src="./public/who-are--we--line-mob-2.svg">
+                <img class="l3" src="./public/who-are--we--line-mob-2.svg">
             </h6>
-            <p class="description1 text-start "><span class="h63">Step 1 : </span>Utilize our website to link your MetaMask wallet (SWAP) for
+            <p class="description1 text-start "><span class="h63">Step 1 : </span>Utilize our website to link your
+                MetaMask wallet (SWAP) for
                 subscription.
             </p>
-                <p class="description1 text-start "><span class="h63">Step 2 : </span> Explore various platforms for IPO investments. Click here for details.</p>
-                <p class="description1 text-start "><span class="h63">Step 3 : </span> For additional information, kindly contact us via the company's email.</p>
-                <button class="button-mob-2 buttonMob2 my-2">Click Here</button>
+            <p class="description1 text-start "><span class="h63">Step 2 : </span> Explore various platforms for IPO
+                investments. Click here for details.</p>
+            <p class="description1 text-start "><span class="h63">Step 3 : </span> For additional information, kindly
+                contact us via the company's email.</p>
+            <button class="button-mob-2 buttonMob2 my-2">Click Here</button>
             <button class="button-mob-2 button2 ">Click Here</button>
         </div>
         <div class="col-6">
@@ -115,19 +130,18 @@
         </div>
     </div>
     <div class="row m-2">
-        <div class="col-12">
-            <h6 class="h62 text-center">Bitcoin Distribution PIE 
-            </h6>
+        <div class="col-12 m-1">
+            <h6 class="h62 text-center">Bitcoin Distribution PIE</h6>
         </div>
         <div class="col-12">
             <div class=" row bitcoin">
                 <div class="col-6 pt-2 "><img class="rectangle-icon" src="./public/rectangle@2x.png"></div>
-                <div class="col-6  p-1">
-                    <div class="row pt-2">
-                        <div class="col-12 px-1 font12">70 % &nbsp;<div class="chart c1"></div>  Holders</div>
-                        <div class="col-12 px-1 font12">15 % &nbsp;<div  class="chart c2"></div>  Marketing</div>
-                        <div class="col-12 px-1 font12">10 % &nbsp;<div class="chart c3" > </div>  Founders</div>
-                        <div class="col-12 px-1 font12">5 % &nbsp;&nbsp; <div class="chart c4" ></div>  Developing Token To Coin</div>
+                <div class="col-6 colors px-1">
+                    <div class="row ">
+                        <div class="col-12 px-1 font12">70 % &nbsp;<div class="chart c1"></div> Holders</div>
+                        <div class="col-12 px-1 font12">15 % &nbsp;<div class="chart c2"></div> Marketing</div>
+                        <div class="col-12 px-1 font12">10 % &nbsp;<div class="chart c3"> </div> Founders</div>
+                        <div class="col-12 px-1 font12">5 % &nbsp;&nbsp; <div class="chart c4"></div> Developing Token To Coin</div>
                     </div>
                 </div>
             </div>
@@ -143,7 +157,7 @@
     <div class="row m-2 g-2">
         <div class="col-12">
             <h6 class="h62 text-center">Target Price<br>
-                <img class="who-are-w" width="65px" src="./public/who-are--we--line-mob-2.svg">
+                <img class="who-are-w l7"  src="./public/who-are--we--line-mob-2.svg">
             </h6>
             <p class="text-center pTag6">We will strive to achieve a market value of <span
                     style="color:#e0bc85">$250,000</span> for the Bitcoin Limited Edition within a few years to ensure
@@ -153,13 +167,12 @@
         <div class="col-12">
             <div class="row p-0 g-0">
                 <div class="col-6 p-1">
-                    <div class="smallDiv" >
+                    <div class="smallDiv">
                         <div class="row">
                             <div class="col-2 p-0" style="display: flex; align-items: center;">
-                                <img class="development-icon-mob-3" 
-                            src="./public/small-number-icon-mob-2.svg">
+                                <img class="development-icon-mob-3" src="./public/small-number-icon-mob-2.svg">
                             </div>
-                            <div class="col-10 p-1 pt-2" >
+                            <div class="col-10 p-1 pt-2">
                                 <h6 class="h64">Small Number</h6>
                                 <p class="ipo4">Its limited and scarce supply compared to other crypto currencies.</p>
                             </div>
@@ -167,15 +180,15 @@
                     </div>
                 </div>
                 <div class="col-6 p-1">
-                    <div class="smallDiv" >
+                    <div class="smallDiv">
                         <div class="row">
                             <div class="col-2 p-0" style="display: flex; align-items: center;">
-                                <img class="development-icon-mob-3"
-                                src="./public/development-icon-mob-2.svg">
+                                <img class="development-icon-mob-3" src="./public/development-icon-mob-2.svg">
                             </div>
-                            <div class="col-10 p-1 pt-2" >
+                            <div class="col-10 p-1 pt-2">
                                 <h6 class="h64">Development</h6>
-                                <p class="ipo4">Our non-traditional strategies developed with our professional and experienced
+                                <p class="ipo4">Our non-traditional strategies developed with our professional and
+                                    experienced
                                     team.</p>
                             </div>
                         </div>
@@ -185,7 +198,7 @@
         </div>
     </div>
 
-    <div class="row m-2">
+    <div class="row m-2" id="howTobuy">
         <div class="col-10">
             <h6 class="h62 text-start">Telegram channels' Languages
             </h6>
@@ -196,145 +209,145 @@
         <div class="col-12">
             <div class=" flex_row">
                 <a class="telegramParent m-1" href="https://t.me/bitcoinlimitededition">
-                    <div class="telegram pt-2 px-2 pb-1 text-center">
+                    <div class="telegram text-center">
                         <div class="telegramImgDiv">
-                            <img class="uimtelegram-alt-icon "  src="./public/uimtelegramalt.svg">
+                            <img class="uimtelegram-alt-icon " src="./public/uimtelegramalt.svg">
                         </div>
                         <h6 class="h62">English (US)
                         </h6>
                         <h6 class="h64" style="opacity: 0.8;">English (US)
-                        </h6> 
+                        </h6>
                         <p class="pTag4 m-3">1 / 12</p>
                     </div>
                 </a>
                 <a class="telegramParent m-1" href="https://t.me/bitcoinlimitededitionchinese">
-                    <div class="telegram pt-2 px-2 pb-1 text-center">
+                    <div class="telegram  text-center">
                         <div class="telegramImgDiv">
-                            <img class="uimtelegram-alt-icon "  src="./public/uimtelegramalt.svg">
+                            <img class="uimtelegram-alt-icon " src="./public/uimtelegramalt.svg">
                         </div>
                         <h6 class="h62">Chinese
                         </h6>
-                        <h6 class="h64">中文 
+                        <h6 class="h64">中文
                         </h6>
                         <p class="pTag4 m-3">2 / 12</p>
                     </div>
                 </a>
                 <a class="telegramParent m-1" href="https://t.me/bitcoinlimitededitionindian">
-                    <div class="telegram pt-2 px-2 pb-1 text-center">
+                    <div class="telegram  text-center">
                         <div class="telegramImgDiv">
-                            <img class="uimtelegram-alt-icon "  src="./public/uimtelegramalt.svg">
+                            <img class="uimtelegram-alt-icon " src="./public/uimtelegramalt.svg">
                         </div>
-                        <h6 class="h62">Indian 
+                        <h6 class="h62">Indian
                         </h6>
-                        <h6 class="h64">भारतीय 
+                        <h6 class="h64">भारतीय
                         </h6>
                         <p class="pTag4 m-3">3 / 12</p>
                     </div>
                 </a>
                 <a class="telegramParent m-1" href="https://t.me/bitcoinlimitededitionarabic">
-                    <div class="telegram pt-2 px-2 pb-1 text-center">
+                    <div class="telegram  text-center">
                         <div class="telegramImgDiv">
-                            <img class="uimtelegram-alt-icon "  src="./public/uimtelegramalt.svg">
+                            <img class="uimtelegram-alt-icon " src="./public/uimtelegramalt.svg">
                         </div>
-                        <h6 class="h62">Arabic  
+                        <h6 class="h62">Arabic
                         </h6>
-                        <h6 class="h64">العربية 
+                        <h6 class="h64">العربية
                         </h6>
                         <p class="pTag4 m-3">4 / 12</p>
                     </div>
                 </a>
                 <a class="telegramParent m-1" href="https://t.me/bitcoinlimitededitionespanol">
-                    <div class="telegram pt-2 px-2 pb-1 text-center">
+                    <div class="telegram  text-center">
                         <div class="telegramImgDiv">
-                            <img class="uimtelegram-alt-icon "  src="./public/uimtelegramalt.svg">
+                            <img class="uimtelegram-alt-icon " src="./public/uimtelegramalt.svg">
                         </div>
-                        <h6 class="h62">Spanish   
+                        <h6 class="h62">Spanish
                         </h6>
-                        <h6 class="h64">Español   
+                        <h6 class="h64">Español
                         </h6>
                         <p class="pTag4 m-3">5 / 12</p>
                     </div>
                 </a>
                 <a class="telegramParent m-1" href="https://t.me/bitcoinlimitededitionrussian">
-                    <div class="telegram pt-2 px-2 pb-1 text-center">
+                    <div class="telegram  text-center">
                         <div class="telegramImgDiv">
-                            <img class="uimtelegram-alt-icon "  src="./public/uimtelegramalt.svg">
+                            <img class="uimtelegram-alt-icon " src="./public/uimtelegramalt.svg">
                         </div>
-                        <h6 class="h62">Russian    
+                        <h6 class="h62">Russian
                         </h6>
-                        <h6 class="h64">русский     
+                        <h6 class="h64">русский
                         </h6>
                         <p class="pTag4 m-3">6 / 12</p>
                     </div>
                 </a>
                 <a class="telegramParent m-1" href="https://t.me/bitcoinlimitededitionportugese">
-                    <div class="telegram pt-2 px-2 pb-1 text-center">
+                    <div class="telegram  text-center">
                         <div class="telegramImgDiv">
-                            <img class="uimtelegram-alt-icon "  src="./public/uimtelegramalt.svg">
+                            <img class="uimtelegram-alt-icon " src="./public/uimtelegramalt.svg">
                         </div>
-                        <h6 class="h62">Portuguese     
+                        <h6 class="h62">Portuguese
                         </h6>
-                        <h6 class="h64">Português     
+                        <h6 class="h64">Português
                         </h6>
                         <p class="pTag4 m-3">7 / 12</p>
                     </div>
                 </a>
                 <a class="telegramParent m-1" href="https://t.me/bitcoinlimitededitionfrench">
-                    <div class="telegram pt-2 px-2 pb-1 text-center">
+                    <div class="telegram  text-center">
                         <div class="telegramImgDiv">
-                            <img class="uimtelegram-alt-icon "  src="./public/uimtelegramalt.svg">
+                            <img class="uimtelegram-alt-icon " src="./public/uimtelegramalt.svg">
                         </div>
-                        <h6 class="h62">French      
+                        <h6 class="h62">French
                         </h6>
-                        <h6 class="h64">Français       
+                        <h6 class="h64">Français
                         </h6>
                         <p class="pTag4 m-3">8 / 12</p>
                     </div>
                 </a>
                 <a class="telegramParent m-1" href="https://t.me/bitcoinlimitededitiondutch">
-                    <div class="telegram pt-2 px-2 pb-1 text-center">
+                    <div class="telegram  text-center">
                         <div class="telegramImgDiv">
-                            <img class="uimtelegram-alt-icon "  src="./public/uimtelegramalt.svg">
+                            <img class="uimtelegram-alt-icon " src="./public/uimtelegramalt.svg">
                         </div>
-                        <h6 class="h62">Dutch       
+                        <h6 class="h62">Dutch
                         </h6>
-                        <h6 class="h64">Duits        
+                        <h6 class="h64">Duits
                         </h6>
                         <p class="pTag4 m-3">9 / 12</p>
                     </div>
                 </a>
                 <a class="telegramParent m-1" href="https://t.me/bitcoinlimitededitionturkey">
-                    <div class="telegram pt-2 px-2 pb-1 text-center">
+                    <div class="telegram  text-center">
                         <div class="telegramImgDiv">
-                            <img class="uimtelegram-alt-icon "  src="./public/uimtelegramalt.svg">
+                            <img class="uimtelegram-alt-icon " src="./public/uimtelegramalt.svg">
                         </div>
-                        <h6 class="h62">Turkish        
+                        <h6 class="h62">Turkish
                         </h6>
-                        <h6 class="h64">Türkçe         
+                        <h6 class="h64">Türkçe
                         </h6>
                         <p class="pTag4 m-3">10 / 12</p>
                     </div>
                 </a>
                 <a class="telegramParent m-1" href="https://t.me/bitcoinlimitededitionIranian">
-                    <div class="telegram pt-2 px-2 pb-1 text-center">
+                    <div class="telegram  text-center">
                         <div class="telegramImgDiv">
-                            <img class="uimtelegram-alt-icon "  src="./public/uimtelegramalt.svg">
+                            <img class="uimtelegram-alt-icon " src="./public/uimtelegramalt.svg">
                         </div>
-                        <h6 class="h62">Irani         
+                        <h6 class="h62">Irani
                         </h6>
-                        <h6 class="h64">ايراني          
+                        <h6 class="h64">ايراني
                         </h6>
                         <p class="pTag4 m-3">11 / 12</p>
                     </div>
                 </a>
                 <a class="telegramParent m-1" href="https://t.me/bitcoinlimitededitionkurdish">
-                    <div class="telegram pt-2 px-2 pb-1 text-center">
+                    <div class="telegram  text-center">
                         <div class="telegramImgDiv">
-                            <img class="uimtelegram-alt-icon "  src="./public/uimtelegramalt.svg">
+                            <img class="uimtelegram-alt-icon " src="./public/uimtelegramalt.svg">
                         </div>
-                        <h6 class="h62">Kurdish          
+                        <h6 class="h62">Kurdish
                         </h6>
-                        <h6 class="h64">کوردی           
+                        <h6 class="h64">کوردی
                         </h6>
                         <p class="pTag4 m-3">12 / 12</p>
                     </div>
@@ -360,10 +373,10 @@
         </div>
     </div>
 
-    <div class="row m-3 p-0">
+    <div class="row m-3 p-0" id="companyMotto">
         <div class="col-12">
             <h6 class="h62 text-center">Company Motto<br>
-                <img class="who-are-w l4"  src="./public/who-are--we--line-mob-2.svg">
+                <img class="who-are-w l4" src="./public/who-are--we--line-mob-2.svg">
             </h6>
         </div>
         <div class="col-12 p-0">
@@ -385,7 +398,7 @@
         </div>
     </div>
 
-    <div class="row m-3">
+    <div class="row m-3" id="ourVision">
         <div class="col-12 p-0">
             <h6 class="h62 text-center m-3">Our vision</h6>
             <p class="ipo2 text-center ">To make our cryptocurrency one of the leading currencies in the crypto
@@ -404,10 +417,11 @@
         </div>
     </div>
 
-    <div class="row m-2 g-2">
+    <div class="row m-2 g-2" id="whitePapperId">
         <div class="col-12">
             <h6 class="h62 text-center">WHITE PAPPER<br>
-                <img class="who-are-w l5"  src="./public/who-are--we--line-mob-2.svg"></h6>
+                <img class="who-are-w l5" src="./public/who-are--we--line-mob-2.svg">
+            </h6>
         </div>
         <div class="col-6">
             <div class="p-1 whitePapper">
@@ -440,7 +454,8 @@
     <div class="row mt-2 ">
         <div class="col-12">
             <h6 class="h62 text-center">FUTURE PLAN<br>
-                <img class="who-are-w l5" src="./public/who-are--we--line-mob-2.svg"></h6>
+                <img class="who-are-w l5" src="./public/who-are--we--line-mob-2.svg">
+            </h6>
         </div>
     </div>
     <div class="row px-3 p-2">
@@ -473,16 +488,18 @@
                 <img class="deal-9948770-icon" src="./public/priority-9402605-1.svg">
             </div>
             <div class="col-10 p-2">
-                <p class="pTag3 p-1">Listing new and strong currencies after well study of their projects, we aim to list
+                <p class="pTag3 p-1">Listing new and strong currencies after well study of their projects, we aim to
+                    list
                     innovative currencies. Our platform will be unique in selecting these distinctive cryptocurrencies.
                 </p>
             </div>
         </div>
     </div>
-    <div class="row mt-3 ">
+    <div class="row mt-3 " id="btcleGoales">
         <div class="col-12">
             <h6 class="h62 text-center">Disclaimer <br>
-                <img class="who-are-w l6"  src="./public/who-are--we--line-mob-2.svg"></h6>
+                <img class="who-are-w l6" src="./public/who-are--we--line-mob-2.svg">
+            </h6>
             <p class="ipo3 text-center">We are part of the Bitcoin community, and we have decided to follow in the
                 footsteps of the renowned Satoshi Nakamoto, the founder of Bitcoin.
                 <br>
@@ -490,19 +507,22 @@
                 Edition of Bitcoin.
                 <br>
                 It should be noted that our currency is independent and has no connection to Bitcoin or any other
-                currency.</p>
+                currency.
+            </p>
         </div>
     </div>
 
     <div class="row mt-3 ">
         <div class="col-12 px-3 py-2">
             <div class="frequently">
-                <div class="row"  style="height: 100% !important;" >
-                    <div class="col-3 text-end" style="display: flex; align-items: center;"><img class="icon-01"  src="./public/icon01.svg">
+                <div class="row" style="height: 100% !important;">
+                    <div class="col-3 text-end" style="display: flex; align-items: center;"><img class="icon-01"
+                            src="./public/icon01.svg">
                     </div>
-                    <div class="col-7 p-1" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+                    <div class="col-7 p-1"
+                        style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
                         <h6 class="h65">Frequently Asked Questions </h6>
-                        <h6 class="h65"  style="color:#dfb372 !important"> (FAQs)</h6>
+                        <h6 class="h65" style="color:#dfb372 !important"> (FAQs)</h6>
                     </div>
                 </div>
             </div>
@@ -526,20 +546,105 @@
         </div>
         <div class="row secoundDiv p-3">
             <div class="col-8">
-                <img width="80px" src="./public/footer-logo-mob-2@2x.png"> <br>
-                <p class="pTag3" style=" margin-top: 9px;">We are a registered American Company operating in the field
+                <img class="footerImage" src="./public/footer-logo-mob-2@2x.png"> <br>
+                <p class="pTag7" style=" margin-top: 9px;">We are a registered American Company operating in the field
                     of digital currencies.</p>
                 <p class="pTag3">We have launched a limited edition Bitcoin project to add a special feature for its
                     owners.</p>
             </div>
             <div class="col-4">
-                <h6 class="pTag3" style="color: #e0bc85;">Make it more easy with install our app</h6>
-                <img width="70px" src="./public/google-play-mob-2@2x.png"> <br>
-                <img width="70px" src="./public/app-store-mob-2@2x.png">
+                <h6 class="pTag7" style="color: #e0bc85;">Make it more easy with install our app</h6>
+                <img class="footerImage2"  src="./public/google-play-mob-2@2x.png"> <br>
+                <img class="footerImage2" src="./public/app-store-mob-2@2x.png">
             </div>
         </div>
     </footer>
 
+    <div class="sidebar py-5 px-3" id="sideBar">
+
+        <div class="row g-1">
+            <div class="col-12 mb-3" id="closeSideBar">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="26" height="26">
+                    <path fill="#b6bdc7"
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z" />
+                </svg>
+            </div>
+            <div class="col-12 mb-2">
+                <div class="connectWallet">
+                    <h3 class="m-0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 20" width="12" height="15">
+                            <rect width="15" height="20" x="0" y="0" rx="2" ry="2" fill="none" stroke="#627EEA"
+                                stroke-width="2" />
+                        </svg>&nbsp;&nbsp;&nbsp;
+                        Connect Wallet</h3>
+                </div>
+            </div>
+            <div class="col-12 mb-3">
+                <div class="connectWallet">
+                    <h4 class="m-0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="24"
+                            height="24">
+                            <path fill="#627EEA"
+                                d="M248 8c-136.97 0-248 111.03-248 248s111.03 248 248 248 248-111.03 248-248S384.97 8 248 8zm0 448c-110.38 0-200-89.61-200-200S137.62 56 248 56s200 89.61 200 200-89.62 200-200 200zm-16-284l80 128-80 128-80-128zm80 0l-80 128 80-128z" />
+                        </svg>
+                        &nbsp;&nbsp;&nbsp;Ethereum &nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24" width="20" height="20">
+                            <path fill="#627EEA"
+                                d="M12 15.41l-4.59-4.59a.996.996 0 0 0-1.41 1.41l5.3 5.3a.996.996 0 0 0 1.41 0l5.3-5.3a.996.996 0 1 0-1.41-1.41L12 15.41z" />
+                        </svg>
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 mt-1">
+                <h4>Swap Now</h4>
+            </div>
+            <a class="col-12" href="#whoAreWe">
+                <h4> Who are we ?</h4>
+            </a>
+            <a class="col-12" href="#ipo">
+                <h4>IPO policy</h4>
+            </a>
+            <a class="col-12" href="#howTobuy">
+                <h4>How to buy ?</h4>
+            </a>
+            <a class="col-12" href="#ourVision">
+                <h4>our vision</h4>
+            </a>
+            <a class="col-12" href="#ourMessage">
+                <h4>Our message</h4>
+            </a>
+            <a class="col-12" href="#whitePapperId">
+                <h4>WHITE PAPPERS</h4>
+            </a>
+            <a class="col-12" href="#companyMotto">
+                <h4>Company motto</h4>
+            </a>
+            <a class="col-12" href="#btcleGoales">
+                <h4>BTCLE Goals</h4>
+            </a>
+        </div>
+        <div class="row mt-2">
+            <div class="col-2 p-1">
+                <div class="IconFooter2"> <img class="facebook-2168281-icon2" loading="lazy" alt=""
+                        src="./public/facebook-21682811.svg" /></div>
+            </div>
+            <div class="col-2 p-1">
+                <div class="IconFooter2"><img class="linkedin-2168311-1-icon2" loading="lazy" alt=""
+                        src="./public/linkedin-2168311-11.svg" /></div>
+            </div>
+            <div class="col-2 p-1">
+                <div class="IconFooter2"><img src="./public/instagram-2168302.svg"></div>
+            </div>
+            <div class="col-12 p-1 mt-2">
+                <h6 style="color: #dfb372;">Make it more easy with <br>
+                    install our app</h6>
+            </div>
+
+            <div class="col-5 p-1"><img width="100%" src="./public/google-play-mob-2@2x.png"></div>
+            <div class="col-5 p-1"><img width="100%" src="./public/app-store-mob-2@2x.png"></div>
+        </div>
+    </div>
+    <script src="js.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
