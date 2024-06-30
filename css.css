@@ -665,7 +665,7 @@ font-size: 12px;
         width: 120px;
     }
     .l5{
-        width: 110px;
+        width: 120px;
     }
     .footerImage{
         width: 100px;
@@ -702,7 +702,7 @@ font-size: 12px;
         width: 65px;
     }
     .l5{
-        width: 90px;
+        width: 100px;
     }
     .l6{
         width: 70px;
@@ -711,10 +711,11 @@ font-size: 12px;
         width: 20px;
     }
     .development-icon-mob-4{
-        width: 25px;
+        width: 23px;
     }
     .buttonMob2{
         display: block;
+        margin-top: -10px;
     }
     .l1{
         width: 90px;
@@ -781,11 +782,11 @@ font-size: 12px;
     }   
     .description1{
         font-size: 9px !important;
-            margin-top: -10px;
+            margin-top: -12px;
     }   
     .description2{
         font-size: 8px !important;
-            margin-top: -10px;
+            margin-top: -7px;
     }   
     .font12{
         font-size: 9px;
