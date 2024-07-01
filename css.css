@@ -920,3 +920,14 @@ font-size: 12px;
         border: 0px solid black;
       }
 }
+
+
+/*  animation */
+  
+  .boxAnimate {
+    transform: scaleY(0.1);
+    transition: 1s;
+}
+.animate {
+    transform: scaleX(1); /* Scale down to 10% of the original width */
+}

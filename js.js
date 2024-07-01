@@ -20,15 +20,31 @@ swapNow.addEventListener('click', function() {
 
 //  ------------------------------------------- animation
 
-// const content = document.querySelector('.content');
-
-// let lastScrollTop = 0;
-// window.addEventListener('scroll', () => {
-//     const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-//     if (currentScroll > lastScrollTop) {
-//         content.classList.add('animate');
-//     } else {
-//         content.classList.remove('animate');
-//     }
-//     lastScrollTop = currentScroll;
-// });
+// Function to check if an element is in viewport
+// Function to check if an element is in viewport
+function isInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+  
+  // Function to handle scroll event for multiple elements
+  function handleScroll() {
+    const animatedElements = document.querySelectorAll('.animated'); // Select all elements with class 'animated'
+  
+    animatedElements.forEach(element => {
+      if (isInViewport(element)) {
+        element.classList.add('animate');
+      } else {
+        element.classList.remove('animate');
+      }
+    });
+  }
+  
+  // Attach scroll event listener
+  window.addEventListener('scroll', handleScroll);
+  
