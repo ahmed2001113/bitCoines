@@ -312,6 +312,21 @@ background-color: grey;
     object-fit: cover; 
     border-radius: 10px;
 }
+.square-container2 {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+}
+
+.square-container2 .squareImage2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 10px;
+}
 .whitePapper{
     background-color: #1b1e28 !important;
     border-radius: 10px;
@@ -905,4 +920,3 @@ font-size: 12px;
         border: 0px solid black;
       }
 }
-   
