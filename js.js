@@ -18,3 +18,17 @@ swapNow.addEventListener('click', function() {
     swapSection.style.display = 'block';
 });
 
+//  ------------------------------------------- animation
+
+// const content = document.querySelector('.content');
+
+// let lastScrollTop = 0;
+// window.addEventListener('scroll', () => {
+//     const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+//     if (currentScroll > lastScrollTop) {
+//         content.classList.add('animate');
+//     } else {
+//         content.classList.remove('animate');
+//     }
+//     lastScrollTop = currentScroll;
+// });
