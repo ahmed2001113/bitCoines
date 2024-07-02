@@ -21,7 +21,7 @@
                 </div>
             </div>
         </div>  -->
-        <div class="row px-4 " style="padding-top:42px;">
+        <div class="row px-4 " style="padding-top:25px;">
             <div class="col-2 text-start" id="openSideBar"><img src="./public/jammenu.svg"></div>
             <div class="col-8 text-center"><a href="index.html"><img class="navIcon" src="./public/logo-moc@2x.png"></a></div>
             <div class="col-2 text-end "><img class="gear-icon" loading="lazy" alt="" src="./public/gear.svg"></div>
@@ -40,8 +40,8 @@
         <div class="row mx-5 ">
             <div class="col-12 p-0 swabDiv1">
                 <div class="row" style="padding: 5px;">
-                    <div class="col-5 p-0" style="font-size: 20px;">00.00</div>
-                    <div class="col-7 pt-1 p-0"><button class="btn1 mx-2">max</button><button class="btn2 mx-2"> <img
+                    <div class="col-4 p-0" style="font-size: 20px;">00.00</div>
+                    <div class="col-8 pt-1 p-0"><button class="btn1 mx-2">max</button><button class="btn2 mx-2"> <img
                                 class="group-icon1" src="./public/group-1.svg"> BTCLE &nbsp;&nbsp;<svg
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"
                                 style="margin-top: -5px;">
@@ -55,8 +55,8 @@
             </div>
             <div class="col-12 p-0 swabDiv1">
                 <div class="row" style="padding: 5px;">
-                    <div class="col-7 p-0" style="font-size: 20px;">00.00</div>
-                    <div class="col-5 px-1 pt-1 p-0"><button class="btn2 mx-2"> <img class="usdcsvg-icon" loading="lazy"
+                    <div class="col-6 p-0" style="font-size: 20px;">00.00</div>
+                    <div class="col-6 px-1 pt-1 p-0"><button class="btn2 mx-2"> <img class="usdcsvg-icon" loading="lazy"
                                 alt="" src="./public/usdcsvg.svg"> USDC &nbsp;&nbsp;<svg
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"
                                 style="margin-top: -5px;">
@@ -110,7 +110,90 @@
         </div>
 
     </section>
+    <div class="sidebar py-5 px-3" id="sideBar" >
 
+        <div class="row g-1">
+            <div class="col-12 mb-3" id="closeSideBar">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="26" height="26">
+                    <path fill="#b6bdc7"
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z" />
+                </svg>
+            </div>
+            <div class="col-12 mb-2">
+                <div class="connectWallet">
+                    <h3 class="m-0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 20" width="12" height="15">
+                            <rect width="15" height="20" x="0" y="0" rx="2" ry="2" fill="none" stroke="#627EEA"
+                                stroke-width="2" />
+                        </svg>&nbsp;&nbsp;&nbsp;
+                        Connect Wallet</h3>
+                </div>
+            </div>
+            <div class="col-12 mb-3">
+                <div class="connectWallet">
+                    <h4 class="m-0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="24"
+                            height="24">
+                            <path fill="#627EEA"
+                                d="M248 8c-136.97 0-248 111.03-248 248s111.03 248 248 248 248-111.03 248-248S384.97 8 248 8zm0 448c-110.38 0-200-89.61-200-200S137.62 56 248 56s200 89.61 200 200-89.62 200-200 200zm-16-284l80 128-80 128-80-128zm80 0l-80 128 80-128z" />
+                        </svg>
+                        &nbsp;&nbsp;&nbsp;Ethereum &nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24" width="20" height="20">
+                            <path fill="#627EEA"
+                                d="M12 15.41l-4.59-4.59a.996.996 0 0 0-1.41 1.41l5.3 5.3a.996.996 0 0 0 1.41 0l5.3-5.3a.996.996 0 1 0-1.41-1.41L12 15.41z" />
+                        </svg>
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 mt-1">
+              <a href="swap.html"> <h4>Swap Now</h4> </a>
+            </div>
+            <a class="col-12" href="#whoAreWe" onclick="colseSidePar2()">
+                <h4> Who are we ?</h4>
+            </a>
+            <a class="col-12" href="#ipo" onclick="colseSidePar2()">
+                <h4>IPO policy</h4>
+            </a>
+            <a class="col-12" href="#howTobuy" onclick="colseSidePar2()">
+                <h4>How to buy ?</h4>
+            </a>
+            <a class="col-12" href="#ourVision" onclick="colseSidePar2()">
+                <h4>our vision</h4>
+            </a>
+            <a class="col-12" href="#ourMessage" onclick="colseSidePar2()">
+                <h4>Our message</h4>
+            </a>
+            <a class="col-12" href="#whitePapperId" onclick="colseSidePar2()">
+                <h4>WHITE PAPPERS</h4>
+            </a>
+            <a class="col-12" href="#companyMotto" onclick="colseSidePar2()">
+                <h4>Company motto</h4>
+            </a>
+            <a class="col-12" href="#btcleGoales" onclick="colseSidePar2()">
+                <h4>BTCLE Goals</h4>
+            </a>
+        </div>
+        <div class="row mt-2">
+            <div class="col-2 p-1">
+                <div class="IconFooter2"> <img class="facebook-2168281-icon2" loading="lazy" alt=""
+                        src="./public/facebook-21682811.svg" /></div>
+            </div>
+            <div class="col-2 p-1">
+                <div class="IconFooter2"><img class="linkedin-2168311-1-icon2" loading="lazy" alt=""
+                        src="./public/linkedin-2168311-11.svg" /></div>
+            </div>
+            <div class="col-2 p-1">
+                <div class="IconFooter2"><img src="./public/instagram-2168302.svg"></div>
+            </div>
+            <div class="col-12 p-1 mt-2">
+                <h6 style="color: #dfb372;">Make it more easy with <br>
+                    install our app</h6>
+            </div>
+
+            <div class="col-5 p-1"><img width="100%" src="./public/google-play-mob-2@2x.png"></div>
+            <div class="col-5 p-1"><img width="100%" src="./public/app-store-mob-2@2x.png"></div>
+        </div>
+    </div>
      
     <script>
         var openSideBar = document.getElementById('openSideBar');
