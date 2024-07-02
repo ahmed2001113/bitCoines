@@ -13,15 +13,61 @@ closeSideBar.addEventListener('click', function() {
     sideBar.style.right = '100vw';
 });
 
-swapNow.addEventListener('click', function() {
-    homeSection.style.display = 'none';
-    swapSection.style.display = 'block';
-});
-
+function colseSidePar2(){
+  sideBar.style.right = '100vw';
+}
 //  ------------------------------------------- animation
 
-// Function to check if an element is in viewport
-// Function to check if an element is in viewport
+function copyText() {
+  var text = document.getElementById("textToCopy");
+
+  var range = document.createRange();
+  range.selectNode(text);
+
+  window.getSelection().removeAllRanges(); // Clear current selection
+  window.getSelection().addRange(range);
+
+  document.execCommand("copy");
+
+  window.getSelection().removeAllRanges();
+}
+
+document.getElementById('hero-video_1').addEventListener('click', function() {
+  var videoPath = this.getAttribute('data-video-path');
+  playVideo(videoPath);
+});
+
+document.getElementById('hero-video_2').addEventListener('click', function() {
+  var videoPath = this.getAttribute('data-video-path');
+  playVideo(videoPath);
+});
+
+document.getElementById('hero-video_3').addEventListener('click', function() {
+  var videoPath = this.getAttribute('data-video-path');
+  playVideo(videoPath);
+});
+
+function playVideo(videoPath) {
+  Swal.fire({
+      html: `<video width="100%" controls autoplay><source src="${videoPath}" type="video/mp4"></video>`,
+      showConfirmButton: false,
+      showCloseButton: true,
+      customClass: 'swal-wide',
+      onOpen: () => {
+          // Pause the video on open
+          var video = Swal.getContent().querySelector('video');
+          video.pause();
+      },
+      onClose: () => {
+          // Stop and remove the video when closing the popup
+          var video = Swal.getContent().querySelector('video');
+          video.pause();
+          video.removeAttribute('src');
+          video.load();
+      }
+  });
+}
+
 function isInViewport(element) {
     const rect = element.getBoundingClientRect();
     return (
@@ -47,4 +93,6 @@ function isInViewport(element) {
   
   // Attach scroll event listener
   window.addEventListener('scroll', handleScroll);
-  
+   
+
+

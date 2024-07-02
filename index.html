@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11">
     <title>BitCoins</title>
 </head>
 
@@ -21,7 +22,7 @@
                 </div>
             </div>
         </div>  -->
-        <div class="row px-4 " style="padding-top:42px;">
+        <div class="row px-4 " style="padding-top:39px;">
             <div class="col-2 text-start" id="openSideBar"><img src="./public/jammenu.svg"></div>
             <div class="col-8 text-center"><img class="navIcon" src="./public/logo-moc@2x.png"></div>
             <div class="col-2 text-end "><img class="gear-icon" loading="lazy" alt="" src="./public/gear.svg"></div>
@@ -36,15 +37,15 @@
                     Max Supply;<span>&nbsp;210.000</span><br>
                     Total Supply;<span>&nbsp;189.000</span><br>
                     Start Price;<span>&nbsp;1 BTCLE = 100 USD</span></p>
-                <p class="pTag2">Smart Contract; <span
+                <p class="pTag2">Smart Contract; <span id="textToCopy"
                         class="break-text">0x9d2144328e1d618F54Cd38540F<br>5eE50671f6A208</span>&nbsp;&nbsp; <img
-                        class="cobyImg" src="./public/solarcopylinear.svg"><br>
-                    <button class="button-mob-2 my-1" id="swapNow">Swap Now</button>
+                        class="cobyImg" src="./public/solarcopylinear.svg" onclick="copyText()"><br>
+                  <a href="swap.html">  <button class="button-mob-2 my-1" href="swap.html">Swap Now</button></a>
                 </p>
             </div>
             <div class="col-6">
                 <div class="square-container mt-1">
-                    <video class="squareImage" src="./videoAndNewImg/1.mp4" autoplay muted loop playsinline>
+                    <video class="squareImage" src="./videoAndNewImg/1.mp4" autoplay muted loop playsinline id="hero-video_1" data-video-path="./videoAndNewImg/1.mp4">
                     <!-- <img class="playVideo" src="./public/vedio-1-mob-2.svg"> -->
                 </div>
             </div>
@@ -69,7 +70,7 @@
         <div class="row g-2 m-2">
             <div class="p-1 col-6">
                 <div class="square-container">
-                    <video class="squareImage" src="./videoAndNewImg/2.mp4" autoplay muted loop playsinline>
+                    <video class="squareImage" src="./videoAndNewImg/2.mp4" autoplay muted loop playsinline id="hero-video_2" data-video-path="./videoAndNewImg/2.mp4">
                 </div>
             </div>
             <div class="p-1 col-6" id="ourMessage">
@@ -159,7 +160,7 @@
         </div>
         <div class="row m-3 ">
             <div class="col-12 p-0 video3 py-3">
-                <video class="vid" src="./videoAndNewImg/3.mp4" autoplay muted loop playsinline>
+                <video class="vid" src="./videoAndNewImg/3.mp4" autoplay muted loop playsinline id="hero-video_3" data-video-path="./videoAndNewImg/3.mp4">
                 <!-- <img class="playVideo2" src="./public/vedio-1-mob-2.svg"> -->
             </div>
         </div>
@@ -415,7 +416,7 @@
         <div class="row m-3" id="ourVision">
             <div class="col-12 p-0">
                 <h6 class="h62 text-center m-3">Our vision</h6>
-                <p class="ipo text-center ">To make our cryptocurrency one of the leading currencies in the<br> crypto
+                <p class="ipo text-center ">To make our cryptocurrency one of the leading currencies in the crypto<br> 
                     market.</p>
             </div>
             <div class="col-12 p-0">
@@ -541,7 +542,7 @@
                         <div class="col-7 p-1"
                             style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
                             <h6 class="h65">Frequently Asked Questions </h6>
-                            <h6 class="h65" style="color:#dfb372 !important"> (FAQs)</h6>
+                            <h6 class="h65"> (FAQ)</h6>
                         </div>
                     </div>
                 </div>
@@ -666,7 +667,7 @@
     </section>
 
 
-    <div class="sidebar py-5 px-3" id="sideBar">
+    <div class="sidebar py-5 px-3" id="sideBar" >
 
         <div class="row g-1">
             <div class="col-12 mb-3" id="closeSideBar">
@@ -702,30 +703,30 @@
         </div>
         <div class="row">
             <div class="col-12 mt-1">
-                <h4>Swap Now</h4>
+              <a href="swap.html"> <h4>Swap Now</h4> </a>
             </div>
-            <a class="col-12" href="#whoAreWe">
+            <a class="col-12" href="#whoAreWe" onclick="colseSidePar2()">
                 <h4> Who are we ?</h4>
             </a>
-            <a class="col-12" href="#ipo">
+            <a class="col-12" href="#ipo" onclick="colseSidePar2()">
                 <h4>IPO policy</h4>
             </a>
-            <a class="col-12" href="#howTobuy">
+            <a class="col-12" href="#howTobuy" onclick="colseSidePar2()">
                 <h4>How to buy ?</h4>
             </a>
-            <a class="col-12" href="#ourVision">
+            <a class="col-12" href="#ourVision" onclick="colseSidePar2()">
                 <h4>our vision</h4>
             </a>
-            <a class="col-12" href="#ourMessage">
+            <a class="col-12" href="#ourMessage" onclick="colseSidePar2()">
                 <h4>Our message</h4>
             </a>
-            <a class="col-12" href="#whitePapperId">
+            <a class="col-12" href="#whitePapperId" onclick="colseSidePar2()">
                 <h4>WHITE PAPPERS</h4>
             </a>
-            <a class="col-12" href="#companyMotto">
+            <a class="col-12" href="#companyMotto" onclick="colseSidePar2()">
                 <h4>Company motto</h4>
             </a>
-            <a class="col-12" href="#btcleGoales">
+            <a class="col-12" href="#btcleGoales" onclick="colseSidePar2()">
                 <h4>BTCLE Goals</h4>
             </a>
         </div>
@@ -751,6 +752,7 @@
         </div>
     </div>
     <script src="js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>BitCoins</title>
+</head>
+
+<body>
+    <nav>
+        <!-- <div class="row px-4 labNav">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-6"><img src="./public/jammenu.svg"></div>
+                    <div class="col-6">
+                        <div> <img class="ant-designswap-outlined-icon" alt="" src="./public/antdesignswapoutlined.svg"> <h3>Swap</h3> <img class="gear-icon2" loading="lazy" alt="" src="./public/gear.svg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>  -->
+        <div class="row px-4 " style="padding-top:42px;">
+            <div class="col-2 text-start" id="openSideBar"><img src="./public/jammenu.svg"></div>
+            <div class="col-8 text-center"><a href="index.html"><img class="navIcon" src="./public/logo-moc@2x.png"></a></div>
+            <div class="col-2 text-end "><img class="gear-icon" loading="lazy" alt="" src="./public/gear.svg"></div>
+        </div>
+    </nav>
+
+    <section class="pt-4 m-0" >
+        <div class="row m-3 px-5">
+            <div class="col-4 p-0">
+                <img class="group-icon" loading="lazy" alt="" src="./public/group.svg">
+            </div>
+            <div class="col-8 p-0">
+                <button class="swapBtn">Start Swap</button>
+            </div>
+        </div>
+        <div class="row mx-5 ">
+            <div class="col-12 p-0 swabDiv1">
+                <div class="row" style="padding: 5px;">
+                    <div class="col-5 p-0" style="font-size: 20px;">00.00</div>
+                    <div class="col-7 pt-1 p-0"><button class="btn1 mx-2">max</button><button class="btn2 mx-2"> <img
+                                class="group-icon1" src="./public/group-1.svg"> BTCLE &nbsp;&nbsp;<svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"
+                                style="margin-top: -5px;">
+                                <path fill="#fff"
+                                    d="M12 15.41l-4.59-4.59a.996.996 0 0 0-1.41 1.41l5.3 5.3a.996.996 0 0 0 1.41 0l5.3-5.3a.996.996 0 1 0-1.41-1.41L12 15.41z" />
+                            </svg></button></div>
+                </div>
+            </div>
+            <div class="col-12 my-3 text-center">
+                <img class="arrow_icon" src="./public/arrow-13876866-1@2x.png">
+            </div>
+            <div class="col-12 p-0 swabDiv1">
+                <div class="row" style="padding: 5px;">
+                    <div class="col-7 p-0" style="font-size: 20px;">00.00</div>
+                    <div class="col-5 px-1 pt-1 p-0"><button class="btn2 mx-2"> <img class="usdcsvg-icon" loading="lazy"
+                                alt="" src="./public/usdcsvg.svg"> USDC &nbsp;&nbsp;<svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"
+                                style="margin-top: -5px;">
+                                <path fill="#fff"
+                                    d="M12 15.41l-4.59-4.59a.996.996 0 0 0-1.41 1.41l5.3 5.3a.996.996 0 0 0 1.41 0l5.3-5.3a.996.996 0 1 0-1.41-1.41L12 15.41z" />
+                            </svg></button></div>
+                </div>
+            </div>       
+            <div class="col-12 text-center p-2 my-3 swabDiv2">
+                <h6 class="m-0">Connect Wallet</h6>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-12 text-center p-2 my-3">
+                <h6 class="m-2" style="color:#e0bc85;">CONTACT NOW</h6>
+                <p>Start by connecting with one of the wallets below. Bw sure to store your private keys or seed phrase
+                    security. Never share them with anyone.</p>
+            </div>
+            <div class="col-3 text-center ">
+                <div class="metamask">
+                    <img class="logosmetamask-icon"   loading="lazy" alt="" src="./public/logosmetamaskicon.svg">
+                </div>
+            </div>
+            <div class="col-3 text-center">
+                <div class="arcticonstrust">
+                    <img class="arcticonstrust-wallet"
+                        src="./public/arcticonstrustwallet.svg">
+                </div>
+            </div>
+            <div class="col-3 text-center ">
+                <div class="iconsbinance">
+                    <img class="simple-iconsbinance"  src="./public/simpleiconsbinance.svg">
+                </div>
+            </div>
+            <div class="col-3 text-center ">
+                <div class="coinbase">
+                    <img class="coinbase-wallet-icon"   loading="lazy" alt="" src="./public/coinbase-wallet.svg">
+                </div>
+            </div>
+            <div class="col-3 text-center my-2">
+                <div class="blocto">
+                    <img class="blocto-icon" src="./public/blocto@2x.png">
+                </div>
+            </div>
+            <div class="col-3 text-center my-2">
+                <div class="iconswalletconnect">
+                    <img class="simple-iconswalletconnect" 
+                        src="./public/simpleiconswalletconnect.svg">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+     
+    <script>
+        var openSideBar = document.getElementById('openSideBar');
+        var closeSideBar = document.getElementById('closeSideBar');
+        var sideBar = document.getElementById('sideBar');
+        var homeSection = document.getElementById('homeSection');
+        var swapSection = document.getElementById('swapSection');
+        var swapNow = document.getElementById('swapNow');
+
+        openSideBar.addEventListener('click', function() {
+            sideBar.style.right = '0vw';
+        });
+
+        closeSideBar.addEventListener('click', function() {
+            sideBar.style.right = '100vw';
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
