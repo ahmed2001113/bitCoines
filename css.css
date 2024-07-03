@@ -437,7 +437,7 @@ color: #627EEA;
     border: 1px solid #e0bc85;
     background-color: #1b1e28;
     border-radius: 5px;
-    padding: 10px 10px;
+    padding: 8px 12px;
 }
 .swabDiv2{
     border: 1px solid #e0bc8577;
@@ -483,12 +483,12 @@ font-size: 12px;
     border-radius: 10px;
     width: 30px;
     height: 30px;
-    margin: auto;
     text-align: center;
 }
 .arrow_icon svg{
     width: 13px !important;
 }
+
 
 .metamask img{
     width: 35px;
@@ -574,7 +574,14 @@ font-size: 12px;
     border-radius: 20px;
     padding: 8px 20px 5px 20px;
 }
-
+.pContactSwap{
+    color: #ffffffad !important;
+    font-size: 15px;
+}
+.spanSwap{
+    color: #ffffff9a;
+    font-size: 13px;
+}
 @media (max-width:800px) {
 .mobNav{
     display: block !important;
