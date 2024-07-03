@@ -426,23 +426,27 @@ color: #627EEA;
     padding-top: 42px;
 }
 .swapBtn{
-    background-color: #525661;
+    background-color: #2c2f38;
     border-radius: 10px;
-    padding: 5px 15px;
-    border: 1px solid #525661;
+    padding: 8px 20px;
+    border: 1px solid #2c2f38;
     color: #fff;
-    font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
 }
 .swabDiv1{
     border: 1px solid #e0bc85;
     background-color: #1b1e28;
     border-radius: 5px;
+    padding: 10px 10px;
 }
 .swabDiv2{
-    border: 1px solid #627eea;
+    border: 1px solid #e0bc8577;
     background-color: #1b1e28;
-    border-radius: 5px;
+    border-radius: 10px;
+    padding: 12px 2px;
+    width: 90%;
+    margin: auto;
+    color: #e0bc85ad;
 }
 .btn2{
     background-color: #272a35;
@@ -452,6 +456,20 @@ color: #627EEA;
     border: 1px solid #272a35;
     font-size: 14px;
 }
+.btn2swap{
+    background-color: #272a35;
+    color: #fff;
+    border-radius: 8px;  
+    padding: 4px 10px;
+    border: 1px solid #272a35;
+    font-size: 17px;
+    width: 120px;
+    text-align: start;
+}
+.bitCoinIconSwap{
+    width: 32px;
+    height: 32px;
+}
 .btn1{
 border: 1px solid white;
 border-radius: 10px;
@@ -460,8 +478,16 @@ background-color: transparent;
 color: white;
 font-size: 12px;
 }
-.arrow_icon{
-    width: 28px;
+.arrow_icon {
+    background-color: #000;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+}
+.arrow_icon svg{
+    width: 13px !important;
 }
 
 .metamask img{
@@ -541,6 +567,12 @@ font-size: 12px;
 }
 .iconswalletconnect img{
     width: 40px;
+}
+.sectionSwap{
+    background-color: #1b1d2a;
+    margin: 25px 20px 20px 20px;
+    border-radius: 20px;
+    padding: 8px 20px 5px 20px;
 }
 
 @media (max-width:800px) {
