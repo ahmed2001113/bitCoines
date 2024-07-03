@@ -440,11 +440,11 @@ color: #627EEA;
     padding: 8px 12px;
 }
 .swabDiv2{
-    border: 1px solid #e0bc8577;
+    border: 1px solid #e0bc859c;
     background-color: #1b1e28;
     border-radius: 10px;
     padding: 12px 2px;
-    width: 90%;
+    width: 94%;
     margin: auto;
     color: #e0bc85ad;
 }
@@ -576,12 +576,30 @@ font-size: 12px;
 }
 .pContactSwap{
     color: #ffffffad !important;
-    font-size: 15px;
+    font-size: 13px;
+    margin-top: 10px;
 }
 .spanSwap{
     color: #ffffff9a;
-    font-size: 13px;
+    font-size: 12px;
 }
+.titleAsk{
+    color: #e0bc85 !important;
+    text-align: center;
+    font-size: 15px;
+}
+.titleAsk .l8{
+    width: 220px;
+    margin-top: -22px;
+}
+.parentAsk{
+    background-color: #272a35;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
 @media (max-width:800px) {
 .mobNav{
     display: block !important;
