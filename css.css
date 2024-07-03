@@ -606,7 +606,7 @@ font-size: 12px;
 }
 @media (min-width:800px) {
     .response{
-        padding: 0px 300px 0px 300px !important;
+        padding: 0px 400px 0px 400px !important;
     }
 }
 @media (max-width:800px) {
