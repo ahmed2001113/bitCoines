@@ -440,11 +440,11 @@ color: #627EEA;
     padding: 8px 12px;
 }
 .swabDiv2{
-    border: 1px solid #e0bc859c;
+    border: 1px solid #e0bc85cc;
     background-color: #1b1e28;
     border-radius: 10px;
     padding: 12px 2px;
-    width: 94%;
+    width: 82%;
     margin: auto;
     color: #e0bc85ad;
 }
@@ -570,7 +570,7 @@ font-size: 12px;
 }
 .sectionSwap{
     background-color: #1b1d2a;
-    margin: 25px 20px 20px 20px;
+    margin: 25px 20px 10px 20px;
     border-radius: 20px;
     padding: 8px 20px 5px 20px;
 }
@@ -599,7 +599,16 @@ font-size: 12px;
     color: #fff;
     font-size: 16px;
 }
-
+.hidden{
+    height: 0px ;
+     overflow: hidden;
+     color: #ffffffa8;
+}
+@media (min-width:800px) {
+    .response{
+        padding: 0px 300px 0px 300px !important;
+    }
+}
 @media (max-width:800px) {
 .mobNav{
     display: block !important;

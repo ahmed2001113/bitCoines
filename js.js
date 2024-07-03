@@ -95,4 +95,3 @@ function isInViewport(element) {
   window.addEventListener('scroll', handleScroll);
    
 
-
