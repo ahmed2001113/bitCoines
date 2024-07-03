@@ -440,11 +440,11 @@ color: #627EEA;
     padding: 8px 12px;
 }
 .swabDiv2{
-    border: 1px solid #e0bc8573;
+    border: 1px solid #c2b7a94f;
     background-color: #1b1e28;
     border-radius: 10px;
     padding: 12px 2px;
-    width: 82%;
+    width: 75%;
     margin: auto;
     color: #e0bc85ad;
 }
@@ -460,11 +460,11 @@ color: #627EEA;
     background-color: #272a35;
     color: #fff;
     border-radius: 8px;  
-    padding: 4px 10px;
+    padding: 4px 5px;
     border: 1px solid #272a35;
     font-size: 17px;
     width: 120px;
-    text-align: start;
+    text-align: center;
 }
 .bitCoinIconSwap{
     width: 32px;
@@ -576,7 +576,7 @@ font-size: 12px;
 }
 .pContactSwap{
     color: #ffffff91 !important;
-    font-size: 13px;
+    font-size: 12px;
     margin-top: 10px;
 }
 .spanSwap{
@@ -604,9 +604,40 @@ font-size: 12px;
      overflow: hidden;
      color: #ffffffa8;
 }
+.spanSwap2{
+    color:#e0bc85d3; 
+    font-size: 11px;
+}
 @media (min-width:800px) {
     .response{
         padding: 0px 400px 0px 400px !important;
+    }
+    .sectionSwap{
+        width: 50%;
+        margin: 70px auto;
+        padding: 10px 20px ;
+        background-color: #0E111A;
+        box-shadow: 1px 1px 10px hsla(240, 48%, 40%, 0.5);
+    }
+    .group-icon{
+        width: 60px;
+    }
+    .swapBtn{
+        padding: 10px 22px;
+        border: 1px solid #2c2f38;
+        color: #fff;
+        font-size: 20px;
+        margin-left: 40px;
+    }
+    .spanSwap2{
+        font-size: 15px;
+    }
+    
+    .contactSwap{
+        margin-top: -50px;
+    }
+    .pContactSwap{
+        font-size: 20px;
     }
 }
 @media (max-width:800px) {
@@ -717,6 +748,10 @@ font-size: 12px;
 
 
 @media (max-width:550px) {
+    .group-icon{
+        width: 42px;
+        height: 42px;
+    }
     .l7{
         width: 95px ;
     }
@@ -985,6 +1020,10 @@ font-size: 12px;
         color: #f0f0f2;
         border: 0px solid black;
       }
+      .group-icon{
+        width: 40px;
+        height: 40px;
+    }
 }
 
 
