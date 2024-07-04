@@ -49,9 +49,7 @@ flex-direction: row;
 .row{
     margin: 0 !important;
 }
-.cobyImg{
-    width: 30px;
-}
+
 
 .button-mob-2 {
   border-radius: 200px;
@@ -114,6 +112,11 @@ flex-direction: row;
     font-size: 16px;
     line-height: 10px;
 }
+.h66{
+    color: #e0bc85 !important;
+    font-size: 16px;
+    /* line-height: 10px; */
+}
 .pTag5{
     font-size: 15px;
 }
@@ -168,6 +171,9 @@ border-radius: 40px;
 width: 30px;
 height: 30px;
 margin:12px auto;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 .ipo{
     font-size: 10px;
@@ -270,6 +276,11 @@ background-color: grey;
     width: 100%;
     border: 1px solid #71757f;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 135px;
 }
 .flex_row {
     overflow-x: auto;
@@ -333,6 +344,7 @@ background-color: grey;
     border-radius: 10px;
     width: 100%;
     height: 100%;
+    padding: 4px;
 }
 .deal-9948770-icon{
     width: 100%;
@@ -359,7 +371,6 @@ background-color: grey;
 }
 .firstdiv{
     width: 100%;
-    background-color: #1b1e28;
     height: 50px;
     display: flex;
     white-space: nowrap;
@@ -370,9 +381,7 @@ background-color: grey;
 .IconFooter2 img{
     width: 35px !important;
 }
-.secoundDiv{
-    background-color: #272a35 !important;
-}
+
 
 .who-are-we-line-mob-2{
     margin-top: -9px;
@@ -492,7 +501,14 @@ font-size: 12px;
     width: 13px !important;
 }
 
-
+.resourceFotter{
+    width: 100%;
+    background-color: #1b1e28;
+}
+.resourceFotter2{
+    width: 100%;
+    background-color: #272a35 !important;
+}
 .metamask img{
     width: 35px;
 }
@@ -611,44 +627,45 @@ font-size: 12px;
     color:#e0bc85d3; 
     font-size: 11px;
 }
-@media (min-width:800px) {
-    .response{
-        padding: 0px 400px 0px 400px !important;
+
+@media (min-width:800px){
+   #resposne{
+    width: 800px;
+    margin: auto;
+   }
+
+   .firstdiv {
+    width: 800px !important;
+    margin: auto;
+   }
+   .secoundDiv{
+    width: 800px !important;
+    margin: auto !important;
+   }
+    .deal-9948770-icon{
+        width: 65%;
     }
-    .sectionSwap{
-        width: 50%;
-        margin: 70px auto;
-        padding: 10px 20px ;
-        background-color: #0E111A;
-        box-shadow: 1px 1px 10px hsla(240, 48%, 40%, 0.5);
+    .whitePapper{
+        padding: 10px !important;
     }
-    .group-icon{
-        width: 60px;
+    .cobyImg{
+        width: 25px;
     }
-    .swapBtn{
-        padding: 10px 22px;
-        border: 1px solid #2c2f38;
-        color: #fff;
-        font-size: 20px;
-        /* margin-left: 40px; */
-    }
-    .spanSwap2{
+    .pTag7{
         font-size: 15px;
     }
-    
-    .contactSwap{
-        margin-top: -50px;
+    .IconFooter img{
+        width: 25px !important;
     }
-    .pContactSwap{
-        font-size: 20px;
+    .frequently{
+        height: 80px;
     }
-}
-@media (max-width:800px) {
-.mobNav{
-    display: block !important;
-}
-}
-@media (max-width:600px) {
+    .icon-01{
+        width: 50px;
+    }
+    .l5{
+        width: 210px;
+    }
     .mobNav{
         display: block !important;
     }
@@ -667,14 +684,15 @@ font-size: 12px;
           #1e212a 61.5%,
           #494f5c
         );
-        padding: 0px 20px;
+        padding: 4px 30px;
         cursor: pointer;
-        font-size: 10px;
+        font-size: 19px;
         color: #f0f0f2;
         border: 0px solid black;
+        margin-top: 10px;
       }
       .l1{
-        width: 80px;
+        width: 190px;
        }
       .l2{
         width: 125px;
@@ -682,28 +700,727 @@ font-size: 12px;
       .l3{
         width: 60px;
        }
-    .cobyImg{
-        width: 16px;
-    }
+      .l4{
+        width: 220px;
+       }
     .image1{
-        width: 90px;
+        width: 245px;
     }
     .h6{
         font-size: 15px;
     }
     .h62{
-        font-size: 15px;
+        font-size: 23px;
         line-height: 10px;
     }
     .h65{
-        font-size: 16px;
+        font-size: 21px;
     }
     .h63{
-        font-size: 14px;
+        font-size: 19px;
     }
  
     .h64{
+        font-size: 20px;
+    }
+    .h66{
+        font-size: 20px;
+    }
+    .h6{
+        font-size: 20px;
+    }
+    .pTag4{
+        font-size: 14px;
+    }
+    .pTag5{
+        font-size: 12px;
+    }
+    .pTag6{
+        font-size: 17px;
+    }
+    .ipo2{
         font-size: 13px;
+    }
+    .pTag3{
+        font-size: 17px;
+        margin: 0;
+    }
+    .ipo{
+        font-size: 18px;
+    }
+    .ipo3{
+        font-size: 17px;
+    }
+    .ipo4{
+        font-size: 14px;
+    }
+    .pTag{
+        font-size: 20px !important;
+    }   
+    .pTag2{
+        font-size: 20px !important;
+    }
+    .description{
+        font-size: 18px !important;
+            margin-top: -10px;
+    }   
+    .description1{
+        font-size: 20px !important;
+        margin-top: 20px;
+    }   
+    .font12{
+        font-size: 22px;
+    }
+    .description2{
+        font-size: 20px !important;
+            margin-top: 17px;
+    }   
+    .rectangle-icon{
+        width: 35%;
+        height: 70% ;
+    }
+    .bitcoin{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+    }
+    .l7{
+        width: 165px ;
+    }
+    .footerImage2{
+        width: 120px;
+        margin-bottom: 7px;
+      }
+    .footerImage{
+        width: 150px;
+      }
+    .development-icon-mob-4{
+        width: 35px;
+    }
+    .development-icon-mob-3{
+        width: 32px;
+    }
+    .arrow3{
+        font-size: 20px;
+    }
+    .telegram{
+        height: 190px;
+        padding: 15px  ;
+    }
+    .telegramParent {
+        width: 25% !important;
+    }
+    .telegramImgDiv img{
+        font-size: 30px;
+    }
+    .telegramImgDiv{
+        width: 38px;
+        height: 38px;
+    }
+}
+@media (min-width:750px) and (max-width:800px) {
+    .deal-9948770-icon{
+        width: 65%;
+    }
+    .whitePapper{
+        padding: 10px !important;
+    }
+    .cobyImg{
+        width: 23px;
+    }
+    .pTag7{
+        font-size: 15px;
+    }
+    .IconFooter img{
+        width: 25px !important;
+    }
+    .frequently{
+        height: 80px;
+    }
+    .icon-01{
+        width: 50px;
+    }
+    .l5{
+        width: 210px;
+    }
+    .mobNav{
+        display: block !important;
+    }
+    .button2{
+        display: none;
+    }
+    .buttonMob2{
+        display: block;
+    }
+    .button-mob-2 {
+        border-radius: 200px;
+        background: linear-gradient(
+          93.23deg,
+          #13161f,
+          #525661 26.5%,
+          #1e212a 61.5%,
+          #494f5c
+        );
+        padding: 4px 28px;
+        cursor: pointer;
+        font-size: 18px;
+        color: #f0f0f2;
+        border: 0px solid black;
+        margin-top: 10px;
+      }
+      .l1{
+        width: 190px;
+       }
+      .l2{
+        width: 125px;
+       }
+      .l3{
+        width: 60px;
+       }
+      .l4{
+        width: 220px;
+       }
+    .image1{
+        width: 245px;
+    }
+    .h6{
+        font-size: 15px;
+    }
+    .h62{
+        font-size: 22px;
+        line-height: 10px;
+    }
+    .h65{
+        font-size: 21px;
+    }
+    .h63{
+        font-size: 19px;
+    }
+ 
+    .h64{
+        font-size: 16px;
+    }
+    .h66{
+        font-size: 16px;
+    }
+    .pTag4{
+        font-size: 14px;
+    }
+    .pTag5{
+        font-size: 12px;
+    }
+    .pTag6{
+        font-size: 17px;
+    }
+    .ipo2{
+        font-size: 13px;
+    }
+    .pTag3{
+        font-size: 15px;
+        margin: 0;
+    }
+    .ipo{
+        font-size: 17px;
+    }
+    .ipo3{
+        font-size: 16px;
+    }
+    .ipo4{
+        font-size: 14px;
+    }
+    .pTag{
+        font-size: 19px !important;
+    }   
+    .pTag2{
+        font-size: 19px !important;
+    }
+    .description{
+        font-size: 17px !important;
+            margin-top: -10px;
+    }   
+    .description1{
+        font-size: 19px !important;
+        margin-top: 20px;
+    }   
+    .font12{
+        font-size: 22px;
+    }
+    .description2{
+        font-size: 19px !important;
+            margin-top: 17px;
+    }   
+    .rectangle-icon{
+        width: 35%;
+        height: 70% ;
+    }
+    .bitcoin{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+    }
+    .l7{
+        width: 165px ;
+    }
+    .footerImage2{
+        width: 120px;
+        margin-bottom: 7px;
+      }
+    .footerImage{
+        width: 150px;
+      }
+    .development-icon-mob-4{
+        width: 35px;
+    }
+    .development-icon-mob-3{
+        width: 32px;
+    }
+    .arrow3{
+        font-size: 20px;
+    }
+    .telegram{
+        height: 190px;
+        padding: 15px  ;
+    }
+    .telegramParent {
+        width: 25% !important;
+    }
+    .telegramImgDiv img{
+        font-size: 30px;
+    }
+    .telegramImgDiv{
+        width: 38px;
+        height: 38px;
+    }
+}
+
+@media (min-width:700px) and (max-width:750px) {
+    .deal-9948770-icon{
+        width: 65%;
+    }
+    .whitePapper{
+        padding: 10px !important;
+    }
+    .cobyImg{
+        width: 23px;
+    }
+    .pTag7{
+        font-size: 14px;
+    }
+    .IconFooter img{
+        width: 25px !important;
+    }
+    .frequently{
+        height: 80px;
+    }
+    .icon-01{
+        width: 50px;
+    }
+    .l5{
+        width: 190px;
+    }
+    .mobNav{
+        display: block !important;
+    }
+    .button2{
+        display: none;
+    }
+    .buttonMob2{
+        display: block;
+    }
+    .button-mob-2 {
+        border-radius: 200px;
+        background: linear-gradient(
+          93.23deg,
+          #13161f,
+          #525661 26.5%,
+          #1e212a 61.5%,
+          #494f5c
+        );
+        padding: 4px 28px;
+        cursor: pointer;
+        font-size: 18px;
+        color: #f0f0f2;
+        border: 0px solid black;
+        margin-top: 10px;
+      }
+      .l1{
+        width: 170px;
+       }
+      .l2{
+        width: 125px;
+       }
+      .l3{
+        width: 60px;
+       }
+      .l4{
+        width: 200px;
+       }
+    .image1{
+        width: 225px;
+    }
+    .h6{
+        font-size: 15px;
+    }
+    .h62{
+        font-size: 20px;
+        line-height: 10px;
+    }
+    .h65{
+        font-size: 19px;
+    }
+    .h63{
+        font-size: 18px;
+    }
+ 
+    .h64{
+        font-size: 16px;
+    }
+    .h66{
+        font-size: 16px;
+    }
+    .pTag4{
+        font-size: 14px;
+    }
+    .pTag5{
+        font-size: 12px;
+    }
+    .pTag6{
+        font-size: 16px;
+    }
+    .ipo2{
+        font-size: 13px;
+    }
+    .pTag3{
+        font-size: 14px;
+        margin: 0;
+    }
+    .ipo{
+        font-size: 16px;
+    }
+    .ipo3{
+        font-size: 15px;
+    }
+    .ipo4{
+        font-size: 14px;
+    }
+    .pTag{
+        font-size: 17px !important;
+    }   
+    .pTag2{
+        font-size: 17px !important;
+    }
+    .description{
+        font-size: 17px !important;
+            margin-top: -10px;
+    }   
+    .description1{
+        font-size: 18px !important;
+        margin-top: 15px;
+    }   
+    .font12{
+        font-size: 20px;
+    }
+    .description2{
+        font-size: 18px !important;
+            margin-top: 17px;
+    }   
+    .rectangle-icon{
+        width: 35%;
+        height: 70% ;
+    }
+    .bitcoin{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+    }
+    .l7{
+        width: 145px ;
+    }
+    .footerImage2{
+        width: 120px;
+        margin-bottom: 7px;
+      }
+    .development-icon-mob-4{
+        width: 35px;
+    }
+    .development-icon-mob-3{
+        width: 32px;
+    }
+    .arrow3{
+        font-size: 20px;
+    }
+    .telegram{
+        height: 190px;
+        padding: 15px  ;
+    }
+    .telegramParent {
+        width: 25% !important;
+    }
+    .telegramImgDiv img{
+        font-size: 30px;
+    }
+    .telegramImgDiv{
+        width: 38px;
+        height: 38px;
+    }
+}
+
+@media (min-width:650px) and (max-width:700px) {
+    .deal-9948770-icon{
+        width: 65%;
+    }
+    .whitePapper{
+        padding: 10px !important;
+    }
+    .cobyImg{
+        width: 22px;
+    }
+    .pTag7{
+        font-size: 14px;
+    }
+    .IconFooter img{
+        width: 25px !important;
+    }
+    .frequently{
+        height: 80px;
+    }
+    .icon-01{
+        width: 50px;
+    }
+    .l5{
+        width: 170px;
+    }
+    .mobNav{
+        display: block !important;
+    }
+    .button2{
+        display: none;
+    }
+    .buttonMob2{
+        display: block;
+    }
+    .button-mob-2 {
+        border-radius: 200px;
+        background: linear-gradient(
+          93.23deg,
+          #13161f,
+          #525661 26.5%,
+          #1e212a 61.5%,
+          #494f5c
+        );
+        padding: 3px 25px;
+        cursor: pointer;
+        font-size: 17px;
+        color: #f0f0f2;
+        border: 0px solid black;
+        margin-top: 10px;
+      }
+      .l1{
+        width: 155px;
+       }
+      .l2{
+        width: 125px;
+       }
+      .l3{
+        width: 60px;
+       }
+      .l4{
+        width: 180px;
+       }
+    .image1{
+        width: 220px;
+    }
+    .h6{
+        font-size: 15px;
+    }
+    .h62{
+        font-size: 19px;
+        line-height: 10px;
+    }
+    .h65{
+        font-size: 19px;
+    }
+    .h63{
+        font-size: 17px;
+    }
+ 
+    .h64{
+        font-size: 14px;
+    }
+    .h66{
+        font-size: 14px;
+    }
+    .pTag4{
+        font-size: 14px;
+    }
+    .pTag5{
+        font-size: 10px;
+    }
+    .pTag6{
+        font-size: 15px;
+    }
+    .ipo2{
+        font-size: 13px;
+    }
+    .pTag3{
+        font-size: 14px;
+        margin: 0;
+    }
+    .ipo{
+        font-size: 15px;
+    }
+    .ipo3{
+        font-size: 14px;
+    }
+    .ipo4{
+        font-size: 12px;
+    }
+    .pTag{
+        font-size: 16px !important;
+    }   
+    .pTag2{
+        font-size: 16px !important;
+    }
+    .description{
+        font-size: 15px !important;
+            margin-top: -10px;
+    }   
+    .description1{
+        font-size: 16px !important;
+        margin-top: 4px;
+    }   
+    .font12{
+        font-size: 18px;
+    }
+    .description2{
+        font-size: 17px !important;
+            margin-top: 17px;
+    }   
+    .rectangle-icon{
+        width: 40%;
+        height: 80% ;
+    }
+    .bitcoin{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+    }
+    .l7{
+        width: 145px ;
+    }
+    .footerImage2{
+        width: 120px;
+        margin-bottom: 7px;
+      }
+    .development-icon-mob-4{
+        width: 32px;
+    }
+    .development-icon-mob-3{
+        width: 29px;
+    }
+    .arrow3{
+        font-size: 20px;
+    }
+    .telegram{
+        height: 190px;
+        padding: 15px  ;
+    }
+    .telegramParent {
+        width: 25% !important;
+    }
+    .telegramImgDiv img{
+        font-size: 30px;
+    }
+    .telegramImgDiv{
+        width: 38px;
+        height: 38px;
+    }
+}
+
+@media (min-width:600px) and (max-width:650px) {
+    .deal-9948770-icon{
+        width: 85%;
+    }
+    .whitePapper{
+        padding: 10px !important;
+    }
+    .cobyImg{
+        width: 20px;
+    }
+    .pTag7{
+        font-size: 13px;
+    }
+    .IconFooter img{
+        width: 25px !important;
+    }
+    .frequently{
+        height: 80px;
+    }
+    .icon-01{
+        width: 45px;
+    }
+    .l5{
+        width: 145px;
+    }
+    .mobNav{
+        display: block !important;
+    }
+    .button2{
+        display: none;
+    }
+    .buttonMob2{
+        display: block;
+    }
+    .button-mob-2 {
+        border-radius: 200px;
+        background: linear-gradient(
+          93.23deg,
+          #13161f,
+          #525661 26.5%,
+          #1e212a 61.5%,
+          #494f5c
+        );
+        padding: 3px 25px;
+        cursor: pointer;
+        font-size: 17px;
+        color: #f0f0f2;
+        border: 0px solid black;
+        margin-top: 10px;
+      }
+      .l1{
+        width: 145px;
+       }
+      .l2{
+        width: 125px;
+       }
+      .l3{
+        width: 60px;
+       }
+      .l4{
+        width: 150px;
+       }
+    .image1{
+        width: 200px;
+    }
+    .h6{
+        font-size: 15px;
+    }
+    .h62{
+        font-size: 18px;
+        line-height: 10px;
+    }
+    .h65{
+        font-size: 17px;
+    }
+    .h63{
+        font-size: 15px;
+    }
+ 
+    .h64{
+        font-size: 14px;
+    }
+    .h66{
+        font-size: 14px;
     }
     .pTag4{
         font-size: 14px;
@@ -722,7 +1439,179 @@ font-size: 12px;
         margin: 0;
     }
     .ipo{
+        font-size: 14px;
+    }
+    .ipo3{
+        font-size: 14px;
+    }
+    .ipo4{
+        font-size: 12px;
+    }
+    .pTag{
+        font-size: 15px !important;
+    }   
+    .pTag2{
+        font-size: 15px !important;
+    }
+    .description{
+        font-size: 15px !important;
+            margin-top: -10px;
+    }   
+    .description1{
+        font-size: 15px !important;
+    }   
+    .font12{
+        font-size: 16px;
+    }
+    .description2{
+        font-size: 15px !important;
+            margin-top: -3px;
+    }   
+    .rectangle-icon{
+        width: 40%;
+        height: 80% ;
+    }
+    .bitcoin{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+    }
+    .l7{
+        width: 130px ;
+    }
+    .footerImage2{
+        width: 120px;
+        margin-bottom: 7px;
+      }
+    .development-icon-mob-4{
+        width: 32px;
+    }
+    .development-icon-mob-3{
+        width: 29px;
+    }
+    .arrow3{
+        font-size: 20px;
+    }
+    .telegram{
+        height: 175px;
+        padding: 15px;
+    }
+    .telegramImgDiv img{
+        font-size: 30px;
+    }
+    .telegramImgDiv{
+        width: 38px;
+        height: 38px;
+    }
+    .telegramParent {
+        width: 25% !important;
+    }
+}
+
+@media (min-width:560px) and (max-width:600px) {
+    .deal-9948770-icon{
+        width: 86%;
+    }
+    .whitePapper{
+        padding: 7px !important;
+    }
+    .cobyImg{
+        width: 20px;
+    }
+    .pTag7{
         font-size: 13px;
+    }
+    .IconFooter img{
+        width: 25px !important;
+    }
+    .frequently{
+        height: 80px;
+    }
+    .icon-01{
+        width: 45px;
+    }
+    .l5{
+        width: 145px;
+    }
+    .mobNav{
+        display: block !important;
+    }
+    .button2{
+        display: none;
+    }
+    .buttonMob2{
+        display: block;
+    }
+    .button-mob-2 {
+        border-radius: 200px;
+        background: linear-gradient(
+          93.23deg,
+          #13161f,
+          #525661 26.5%,
+          #1e212a 61.5%,
+          #494f5c
+        );
+        padding: 3px 25px;
+        cursor: pointer;
+        font-size: 17px;
+        color: #f0f0f2;
+        border: 0px solid black;
+        margin-top: 10px;
+      }
+      .l1{
+        width: 135px;
+       }
+      .l2{
+        width: 125px;
+       }
+      .l3{
+        width: 60px;
+       }
+      .l4{
+        width: 150px;
+       }
+    .image1{
+        width: 200px;
+    }
+    .h6{
+        font-size: 15px;
+    }
+    .h62{
+        font-size: 17px;
+        line-height: 10px;
+    }
+    .h65{
+        font-size: 17px;
+    }
+    .h63{
+        font-size: 14px;
+    }
+ 
+    .h64{
+        font-size: 14px;
+    }
+ 
+    .h66{
+        font-size: 14px;
+    }
+    .pTag4{
+        font-size: 14px;
+    }
+    .pTag5{
+        font-size: 10px;
+    }
+    .pTag6{
+        font-size: 14px;
+    }
+    .ipo2{
+        font-size: 13px;
+    }
+    .pTag3{
+        font-size: 13px;
+        margin: 0;
+    }
+    .ipo{
+        font-size: 14px;
     }
     .ipo3{
         font-size: 13px;
@@ -731,7 +1620,181 @@ font-size: 12px;
         font-size: 12px;
     }
     .pTag{
-        font-size: 13px !important;
+        font-size: 15px !important;
+    }   
+    .pTag2{
+        font-size: 15px !important;
+    }
+    .description{
+        font-size: 14px !important;
+            margin-top: -10px;
+    }   
+    .description1{
+        font-size: 14px !important;
+    }   
+    .font12{
+        font-size: 13px;
+    }
+    .description2{
+        font-size: 14px !important;
+            margin-top: -3px;
+    }   
+    .rectangle-icon{
+        width: 45%;
+        height: 85% ;
+    }
+    .bitcoin{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+    }
+    .l7{
+        width: 125px ;
+    }
+    .footerImage2{
+        width: 120px;
+        margin-bottom: 7px;
+      }
+      .development-icon-mob-4{
+        width: 29px;
+    }
+    .development-icon-mob-3{
+        width: 27px;
+    }
+    .arrow3{
+        font-size: 20px;
+    }
+    .telegram{
+        height: 170px;
+        padding: 12px;
+    }
+    .telegramImgDiv img{
+        font-size: 30px;
+    }
+    .telegramImgDiv{
+        width: 38px;
+        height: 38px;
+    }
+    .telegramParent {
+        width: 27% !important;
+    }
+}
+
+@media (min-width:520px) and (max-width:560px) {
+    .deal-9948770-icon{
+        width: 87%;
+    }
+    .whitePapper{
+        padding: 7px !important;
+    }
+    .cobyImg{
+        width: 18px;
+    }
+    .pTag7{
+        font-size: 13px;
+    }
+    .IconFooter img{
+        width: 25px !important;
+    }
+    .frequently{
+        height: 80px;
+    }
+    .icon-01{
+        width: 45px;
+    }
+    .l5{
+        width: 145px;
+    }
+    .mobNav{
+        display: block !important;
+    }
+    .button2{
+        display: none;
+    }
+    .buttonMob2{
+        display: block;
+    }
+    .button-mob-2 {
+        border-radius: 200px;
+        background: linear-gradient(
+          93.23deg,
+          #13161f,
+          #525661 26.5%,
+          #1e212a 61.5%,
+          #494f5c
+        );
+        padding: 2px 22px;
+        cursor: pointer;
+        font-size: 15px;
+        color: #f0f0f2;
+        border: 0px solid black;
+        margin-top: 7px;
+      }
+      .l1{
+        width: 125px;
+       }
+      .l2{
+        width: 125px;
+       }
+      .l3{
+        width: 60px;
+       }
+      .l4{
+        width: 150px;
+       }
+    .cobyImg{
+        width: 20px;
+    }
+    .image1{
+        width: 155px;
+    }
+    .h6{
+        font-size: 15px;
+    }
+    .h62{
+        font-size: 16px;
+        line-height: 10px;
+    }
+    .h65{
+        font-size: 17px;
+    }
+    .h63{
+        font-size: 14px;
+    }
+ 
+    .h64{
+        font-size: 14px;
+    }
+    .h66{
+        font-size: 14px;
+    }
+    .pTag4{
+        font-size: 14px;
+    }
+    .pTag5{
+        font-size: 10px;
+    }
+    .pTag6{
+        font-size: 14px;
+    }
+    .ipo2{
+        font-size: 13px;
+    }
+    .pTag3{
+        font-size: 13px;
+        margin: 0;
+    }
+    .ipo{
+        font-size: 14px;
+    }
+    .ipo3{
+        font-size: 13px;
+    }
+    .ipo4{
+        font-size: 12px;
+    }
+    .pTag{
+        font-size: 14px !important;
     }   
     .pTag2{
         font-size: 13px !important;
@@ -741,15 +1804,85 @@ font-size: 12px;
             margin-top: -10px;
     }   
     .description1{
-        font-size: 13px !important;
+        font-size: 14px !important;
             margin-top: -10px;
     }   
     .font12{
         font-size: 13px;
     }
+    .description2{
+        font-size: 13px !important;
+            margin-top: -3px;
+    }   
+    .rectangle-icon{
+        width: 45%;
+        height: 85% ;
+    }
+    .bitcoin{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+    }
+    .l7{
+        width: 125px ;
+    }
+    .footerImage2{
+        width: 120px;
+        margin-bottom: 7px;
+      }
+      .development-icon-mob-4{
+        width: 27px;
+    }
+    .development-icon-mob-3{
+        width: 25px;
+    }
+    .arrow3{
+        font-size: 19px;
+    }
+    .telegram{
+        height: 165px;
+        padding: 10px;
+    }
+    .telegramParent {
+        width: 29% !important;
+    }
+    .telegramImgDiv{
+        width: 37px;
+        height: 37px;
+    }
+    .telegramImgDiv img{
+        font-size: 28px;
+    }
 }
 
-@media  (min-width:430px) and  (max-width:470px) {
+@media  (min-width:470px) and  (max-width:520px) {
+    .deal-9948770-icon{
+        width: 90%;
+    }
+    .telegram{
+        height: 153px;
+    }
+    .telegramImgDiv{
+        width: 35px;
+        height: 35px;
+    }
+    .telegramImgDiv img{
+        font-size: 26px;
+    }
+    .cobyImg{
+        width: 17px;
+    }
+    .IconFooter img{
+        width: 22px !important;
+    }
+    .whitePapper{
+        padding: 7px !important;
+    }
+    .rectangle-icon{
+        width: 55%;
+        height: 95% ;
+    }
+
     .group-icon{
         width: 44px;
         height: 44px;
@@ -759,7 +1892,7 @@ font-size: 12px;
         width: 10px;
     }
     .l7{
-        width: 95px ;
+        width: 110px ;
     }
     .mobNav{
         display: block !important;
@@ -782,10 +1915,9 @@ font-size: 12px;
         font-size: 12px;
         color: #f0f0f2;
         border: 0px solid black;
+        margin-top: 5px;
       }
-      .telegram{
-        padding: 15px 10px;
-      }
+      
     .image1{
         width: 148px;
     }
@@ -797,7 +1929,164 @@ font-size: 12px;
         padding: 5px 25px;
     }
     .l1{
+        width: 125px;
+       }
+    .l2{
+        width: 185px;
+        margin-top: 0px;
+       }
+    .l3{
+        width: 92px;
+       }
+    .ipo2{
+        font-size: 13px;
+    }
+    .h6{
+        font-size: 14px;
+    }
+    .h62{
+        font-size: 16px;
+        line-height: 10px;
+        }
+    .h65{
+        font-size: 15px;
+    }
+    .h63{
+        font-size: 14px;
+    }
+   
+    .h64{
+        font-size: 13px;
+    }
+    .h66{
+        font-size: 13px;
+    }
+    .pTag4{
+        font-size: 13px;
+    }
+    .pTag5{
+        font-size: 10px;
+    }
+    .pTag6{
+        font-size: 14px;
+    }
+    .pTag3{
+        font-size: 12px;
+    }
+    .pTag7{
+        font-size: 11px;
+    }
+    .ipo{
+        font-size: 12px;
+    }
+    .ipo3{
+        font-size: 12px;
+    }
+    .ipo4{
+        font-size: 11px;
+    }
+    .pTag{
+        font-size: 13px !important;
+    }   
+    .pTag2{
+        font-size: 13px !important;
+    }
+    .description{
+        font-size: 13px !important;
+            margin-top: -10px;
+    }   
+    .description1{
+        font-size: 11px !important;
+            margin-top: -5px;
+    }   
+    .description2{
+        font-size: 12px !important;
+            margin-top: -3px;
+    }   
+    .font12{
+        font-size: 12px;
+    }
+    .l4{
+        width: 130px;
+    }
+    .l5{
+        width: 130px;
+    }
+    .footerImage{
         width: 100px;
+      }
+      .footerImage2{
+        width: 115px;
+        margin-bottom: 7px;
+      }
+      .development-icon-mob-4{
+        width: 26px;
+    }
+    .development-icon-mob-3{
+        width: 24px;
+    }
+    .arrow3{
+        font-size: 18px;
+    }
+}
+
+@media  (min-width:430px) and  (max-width:470px) {
+    .deal-9948770-icon{
+        width: 90%;
+    }
+    .cobyImg{
+        width: 16px;
+    }
+    .telegramImgDiv img{
+        font-size: 24px;
+    }
+    .group-icon{
+        width: 44px;
+        height: 44px;
+    }
+    .chart{
+        height: 10px;
+        width: 10px;
+    }
+    .l7{
+        width: 110px ;
+    }
+    .mobNav{
+        display: block !important;
+    }
+    .colors{
+        display: flex;
+        align-items: center;       
+    }
+    .button-mob-2 {
+        border-radius: 200px;
+        background: linear-gradient(
+          93.23deg,
+          #13161f,
+          #525661 26.5%,
+          #1e212a 61.5%,
+          #494f5c
+        );
+        padding: 2px 22px;
+        cursor: pointer;
+        font-size: 12px;
+        color: #f0f0f2;
+        border: 0px solid black;
+        margin-top: 4px;
+      }
+      
+    .image1{
+        width: 148px;
+    }
+    .button2{
+        display: none;
+    }
+    .buttonMob2{
+        display: block;
+        padding: 5px 25px;
+    }
+    .l1{
+        width: 125px;
        }
     .l2{
         width: 185px;
@@ -824,6 +2113,9 @@ font-size: 12px;
     }
    
     .h64{
+        font-size: 12px;
+    }
+    .h66{
         font-size: 12px;
     }
     .pTag4{
@@ -862,7 +2154,7 @@ font-size: 12px;
     }   
     .description1{
         font-size: 11px !important;
-            margin-top: 10px;
+            margin-top: -5px;
     }   
     .description2{
         font-size: 11px !important;
@@ -884,18 +2176,32 @@ font-size: 12px;
         width: 95px;
         margin-bottom: 7px;
       }
+      .development-icon-mob-4{
+        width: 24px;
+    }
+    .development-icon-mob-3{
+        width: 22px;
+    }
+    .arrow3{
+        font-size: 17px;
+    }
+    .telegram{
+        height: 140px;
+    } 
+    .telegramImgDiv{
+        width: 35px;
+        height: 35px;
+    }
 }
 
 @media (min-width:380px) and (max-width:430px) {
     .l7{
         width: 95px ;
     }
-    .telegram{
-        padding-bottom: .25rem !important;
-        padding-top: .5rem !important;
-        padding-right: .5rem !important;
-        padding-left: .5rem !important;
-      }
+    .telegramImgDiv img{
+        font-size: 22px;
+    }
+   
       .footerImage2{
         width: 70px;
       }
@@ -922,6 +2228,9 @@ font-size: 12px;
     }
     .development-icon-mob-4{
         width: 23px;
+    }
+    .development-icon-mob-3{
+        width: 21px;
     }
     .buttonMob2{
         display: block;
@@ -954,6 +2263,9 @@ font-size: 12px;
         font-size: 10px;
     }
     .h64{
+        font-size: 9px;
+    }
+    .h66{
         font-size: 9px;
     }
     .pTag4{
@@ -1025,23 +2337,30 @@ font-size: 12px;
         font-size: 10px;
         color: #f0f0f2;
         border: 0px solid black;
+        margin-top: 5px;
       }
       .group-icon{
         width: 46px;
         height: 46px;
     }
+    .cobyImg{
+        width: 16px;
+    }
+    .arrow3{
+        font-size: 16px;
+    }
+    .telegram{
+        height: 135px;
+    }
 }
 
 @media (max-width:380px) {
+    .cobyImg{
+        width: 15px;
+    }
     .l7{
         width: 95px ;
     }
-    .telegram{
-        padding-bottom: .25rem !important;
-        padding-top: .5rem !important;
-        padding-right: .5rem !important;
-        padding-left: .5rem !important;
-      }
       .footerImage2{
         width: 70px;
       }
@@ -1069,6 +2388,9 @@ font-size: 12px;
     .development-icon-mob-4{
         width: 23px;
     }
+    .development-icon-mob-3{
+        width: 21px;
+    }
     .buttonMob2{
         display: block;
         margin-top: -10px;
@@ -1094,12 +2416,15 @@ font-size: 12px;
         line-height: 10px;
     }
     .h65{
-        font-size: 13px;
+        font-size: 12px;
     }
     .h63{
         font-size: 10px;
     }
     .h64{
+        font-size: 9px;
+    }
+    .h66{
         font-size: 9px;
     }
     .pTag4{
@@ -1171,10 +2496,17 @@ font-size: 12px;
         font-size: 10px;
         color: #f0f0f2;
         border: 0px solid black;
+        margin-top: 5px;
       }
       .group-icon{
         width: 46px;
         height: 46px;
+    }
+    .arrow3{
+        font-size: 15px;
+    }
+    .telegram{
+        height: 130px;
     }
 }
 
