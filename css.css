@@ -1028,6 +1028,151 @@ font-size: 12px;
         height: 46px;
     }
 }
+@media (max-width:380px) {
+    .l7{
+        width: 95px ;
+    }
+    .telegram{
+        padding-bottom: .25rem !important;
+        padding-top: .5rem !important;
+        padding-right: .5rem !important;
+        padding-left: .5rem !important;
+      }
+      .footerImage2{
+        width: 70px;
+      }
+      .footerImage{
+        width: 85px;
+      }
+    .mobNav{
+        display: block !important;
+    }
+    .l4{
+        width: 130px;
+    }
+    .l6{
+        width: 65px;
+    }
+    .l5{
+        width: 100px;
+    }
+    .l6{
+        width: 70px;
+    }
+    .development-icon-mob-3{
+        width: 20px;
+    }
+    .development-icon-mob-4{
+        width: 23px;
+    }
+    .buttonMob2{
+        display: block;
+        margin-top: -10px;
+    }
+    .l1{
+        width: 90px;
+       }
+    .l2{
+        width: 145px;
+        margin-top: 1px;
+       }
+    .l3{
+        width: 75px;
+       }
+    .ipo2{
+        font-size: 9px;
+    }
+    .h6{
+        font-size: 11px;
+    }
+    .h62{
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .h65{
+        font-size: 13px;
+    }
+    .h63{
+        font-size: 10px;
+    }
+    .h64{
+        font-size: 9px;
+    }
+    .pTag4{
+        font-size: 10px;
+    }
+    .pTag5{
+        font-size: 6px;
+    }
+    .pTag6{
+        font-size: 11px;
+    }
+    .ipo3{
+        font-size: 9px;
+    }
+    .ipo4{
+        font-size: 8px;
+    }
+    .pTag3{
+        font-size: 9px;
+    }
+    .pTag7{
+        font-size: 9px;
+    }
+    .ipo{
+        font-size: 8px;
+    }
+    .pTag{
+        font-size: 9px !important;
+    }   
+    .pTag2{
+        font-size: 10px !important;
+    }
+    .description{
+        font-size: 9px !important;
+        margin-top: -20px;
+    }   
+    .description1{
+        font-size: 8px !important;
+            margin-top: -5px;
+    }   
+    .description2{
+        font-size: 8px !important;
+            margin-top: -7px;
+    }   
+    .font12{
+        font-size: 9px;
+    }
+    .chart{
+        height: 8px;
+        width: 8px;
+    }
+    .button2{
+        display: none;
+    }
+    .image1{
+        width: 90px;
+    }
+    .button-mob-2 {
+        border-radius: 200px;
+        background: linear-gradient(
+          93.23deg,
+          #13161f,
+          #525661 26.5%,
+          #1e212a 61.5%,
+          #494f5c
+        );
+        padding: 0px 20px;
+        cursor: pointer;
+        font-size: 10px;
+        color: #f0f0f2;
+        border: 0px solid black;
+      }
+      .group-icon{
+        width: 46px;
+        height: 46px;
+    }
+}
 
 
 /*  animation */
