@@ -59,7 +59,6 @@ function playVideo(videoPath) {
           video.pause();
       },
       onClose: () => {
-          // Stop and remove the video when closing the popup
           var video = Swal.getContent().querySelector('video');
           video.pause();
           video.removeAttribute('src');
@@ -78,10 +77,9 @@ function isInViewport(element) {
     );
   }
   
-  // Function to handle scroll event for multiple elements
-  function handleScroll() {
-    const animatedElements = document.querySelectorAll('.animated'); // Select all elements with class 'animated'
   
+  function handleScroll() {
+    const animatedElements = document.querySelectorAll('.animated');   
     animatedElements.forEach(element => {
       if (isInViewport(element)) {
         element.classList.add('animate');
@@ -89,9 +87,44 @@ function isInViewport(element) {
         element.classList.remove('animate');
       }
     });
+
+    const animatedElement2 = document.querySelectorAll('.animated2');   
+    animatedElement2.forEach(element => {
+      if (isInViewport(element)) {
+        element.classList.add('animate2');
+      } else {
+        element.classList.remove('animate2');
+      }
+    });
+
+    const animatedElement3 = document.querySelectorAll('.animated3');   
+    animatedElement3.forEach(element => {
+      if (isInViewport(element)) {
+        element.classList.add('animate3');
+      } else {
+        element.classList.remove('animate3');
+      }
+    });
+
+    const animatedElement4 = document.querySelectorAll('.animated4');   
+    animatedElement4.forEach(element => {
+      if (isInViewport(element)) {
+        element.classList.add('animate4');
+      } else {
+        element.classList.remove('animate4');
+      }
+    });
+
+    const animatedElement5 = document.querySelectorAll('.animated5');   
+    animatedElement5.forEach(element => {
+      if (isInViewport(element)) {
+        element.classList.add('animate5');
+      } else {
+        element.classList.remove('animate5');
+      }
+    });
   }
   
-  // Attach scroll event listener
   window.addEventListener('scroll', handleScroll);
    
 

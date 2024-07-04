@@ -12,6 +12,7 @@ body{
     padding: 0;
     background-color: #0e111a !important;
     color: #b6bdc7 !important;
+    overflow-x: hidden;
 }
 nav{
     width: 100%;
@@ -432,7 +433,7 @@ color: #627EEA;
     border: 1px solid #2c2f38;
     color: #fff;
     font-size: 14px;
-    margin-left: 8px;
+    /* margin-left: 8px; */
 }
 .swabDiv1{
     border: 1px solid #e0bc85;
@@ -485,6 +486,7 @@ font-size: 12px;
     width: 30px;
     height: 30px;
     text-align: center;
+    margin: auto;
 }
 .arrow_icon svg{
     width: 13px !important;
@@ -628,7 +630,7 @@ font-size: 12px;
         border: 1px solid #2c2f38;
         color: #fff;
         font-size: 20px;
-        margin-left: 40px;
+        /* margin-left: 40px; */
     }
     .spanSwap2{
         font-size: 15px;
@@ -1030,14 +1032,48 @@ font-size: 12px;
 
 /*  animation */
   
-    /* .boxAnimate {
-        transform: translateY(-10px);
+    .boxAnimate {
+        transform: translateY(-20px);
         transition: 1s;
     }
     .animate {
         transform: translateY(0px);
-        transform: scaleX(1); 
-    } */
+    }
+
+    .boxAnimate2 {
+        transform: scaleY(0);
+        transition: 1s;
+    }
+    .animate2 {
+        transform: scaleY(1);
+    }
+
+    .boxAnimate3 {
+        transform: translateY(20px);
+        transition: 1s;
+    }
+    .animate3 {
+        transform: translateY(0px);
+    }
+ 
+    .boxAnimate4 {
+         transform: scaleX(0);
+        transition: 1s;
+    }
+    .animate4 {
+          transform: scaleX(1);
+    }
+
+    .boxAnimate5 {
+         transform: scaleX(0);
+        transition: 1s;
+    }
+    .animate5 {
+          transform: scaleX(1);
+    }
+
+
+    /* swal */
     .swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal {
         margin: auto;
         background-color: #090a0f;
