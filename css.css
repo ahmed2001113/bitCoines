@@ -750,7 +750,7 @@ font-size: 12px;
 }
 
 
-@media (max-width:550px) {
+@media  (min-width:430px) and  (max-width:470px) {
     .group-icon{
         width: 44px;
         height: 44px;
@@ -883,7 +883,7 @@ font-size: 12px;
       }
 }
 
-@media (max-width:430px) {
+@media (min-width:380px) and (max-width:430px) {
     .l7{
         width: 95px ;
     }
@@ -988,12 +988,12 @@ font-size: 12px;
         margin-top: -20px;
     }   
     .description1{
-        font-size: 9px !important;
+        font-size: 10px !important;
             margin-top: -12px;
     }   
     .description2{
-        font-size: 8px !important;
-            margin-top: -7px;
+        font-size: 9px !important;
+            margin-top: -5px;
     }   
     .font12{
         font-size: 9px;
@@ -1028,6 +1028,7 @@ font-size: 12px;
         height: 46px;
     }
 }
+
 @media (max-width:380px) {
     .l7{
         width: 95px ;
@@ -1120,7 +1121,7 @@ font-size: 12px;
         font-size: 9px;
     }
     .ipo{
-        font-size: 8px;
+        font-size: 9px !important;
     }
     .pTag{
         font-size: 9px !important;
@@ -1141,7 +1142,7 @@ font-size: 12px;
             margin-top: -7px;
     }   
     .font12{
-        font-size: 9px;
+        font-size: 8px;
     }
     .chart{
         height: 8px;
@@ -1178,7 +1179,7 @@ font-size: 12px;
 /*  animation */
   
     .boxAnimate {
-        transform: translateY(-20px);
+        transform: translateY(-25px);
         transition: 1s;
     }
     .animate {
