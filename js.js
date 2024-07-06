@@ -155,4 +155,3 @@ function changeStylesheet() {
 changeStylesheet();
 window.addEventListener('resize', changeStylesheet);
 
-  

@@ -365,7 +365,7 @@ a{
     position: absolute;
     margin: 0 !important;
     top: 0;
-    left: calc(50% - 720px);
+    left:0px;
     object-fit: cover;
   }
   .data-wrapper-child {
@@ -1963,6 +1963,7 @@ a{
   .telegram-channels-container {
     width: 840px;
     overflow-x: scroll;
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1972,7 +1973,8 @@ a{
     font-size: var(--medium-20px-size);
   }
   .telegram-channels-container::-webkit-scrollbar {
-    display: none; 
+    
+    width: 0; 
   }
   .telegram-channels-section {
     display: flex;
