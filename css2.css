@@ -4412,6 +4412,11 @@ a{
     min-width: 325px;
     max-width: 100%;
   }
+  .hidden{
+     height: 0px ;
+     display: none;
+     overflow: hidden;
+  }
   .make-it-more1 {
     align-self: stretch;
     position: relative;
