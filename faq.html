@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css.css">
+    <link id="faqstylesheet"  rel="stylesheet" href="css.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>BitCoins</title>
 </head>
 
 <body>
-    <nav>
-        <!-- <div class="row px-4 labNav">
+    <div id="faqMobile">
+
+        <nav>
+            <!-- <div class="row px-4 labNav">
             <div class="col-12">
                 <div class="row">
                     <div class="col-6"><img src="./public/jammenu.svg"></div>
@@ -21,334 +23,678 @@
                 </div>
             </div>
         </div>  -->
-        <div class="row px-4 " style="padding-top:18px;">
-            <div class="col-2 text-start" id="openSideBar"><img src="./public/jammenu.svg"></div>
-            <div class="col-8 text-center"><a href="index.html"><img class="navIcon" src="./public/logo-moc@2x.png"></a>
+            <div class="row px-4 " style="padding-top:18px;">
+                <div class="col-2 text-start" id="openSideBar"><img src="./public/jammenu.svg"></div>
+                <div class="col-8 text-center"><a href="index.html"><img class="navIcon"
+                            src="./public/logo-moc@2x.png"></a>
+                </div>
+                <div class="col-2 text-end "><img class="gear-icon" loading="lazy" alt="" src="./public/gear.svg"></div>
             </div>
-            <div class="col-2 text-end "><img class="gear-icon" loading="lazy" alt="" src="./public/gear.svg"></div>
-        </div>
-    </nav>
+        </nav>
+        <section class="my-4 mx-2 response">
+            <div class="row">
+                <div class="col-12">
+                    <div class="titleAsk">Frequently Asked Questions <br>
+                        <img class="who-are-we-line-mob-2 l8" src="./public/who-are--we--line-mob-2.svg">
+                    </div>
+                </div>
+                <div class="col-12  mt-0">
+                    <div class="parentAsk">
+                        <div class="row" onclick="showAnswer(event)">
+                            <div class="col-11 m-0 p-0">
+                                1- Lorem ipsum dolor sit amet ?
+                            </div>
+                            <div class="col-1 m-0 p-0" style="font-size: 18px ; font-weight: 900;">
+                                +
+                            </div>
+                            <div class="col-12 m-0 p-0 hidden">
+                                Lorem ipsum dolor sit amet consectetur. Malesuada adipiscing eu et velit natoque mauris
+                                ornare faucibus platea. Lorem ipsum dolor sit amet consectetur.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 " style="margin-top:14px">
+                    <div class="parentAsk">
+                        <div class="row" onclick="showAnswer(event)">
+                            <div class="col-11 m-0 p-0">
+                                1- Lorem ipsum dolor sit amet ?
+                            </div>
+                            <div class="col-1 m-0 p-0" style="font-size: 18px ; font-weight: 900;">
+                                +
+                            </div>
+                            <div class="col-12 m-0 p-0 hidden">
+                                Lorem ipsum dolor sit amet consectetur. Malesuada adipiscing eu et velit natoque mauris
+                                ornare faucibus platea. Lorem ipsum dolor sit amet consectetur.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 " style="margin-top:14px">
+                    <div class="parentAsk">
+                        <div class="row" onclick="showAnswer(event)">
+                            <div class="col-11 m-0 p-0">
+                                1- Lorem ipsum dolor sit amet ?
+                            </div>
+                            <div class="col-1 m-0 p-0" style="font-size: 18px ; font-weight: 900;">
+                                +
+                            </div>
+                            <div class="col-12 m-0 p-0 hidden">
+                                Lorem ipsum dolor sit amet consectetur. Malesuada adipiscing eu et velit natoque mauris
+                                ornare faucibus platea. Lorem ipsum dolor sit amet consectetur.
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    <section class="my-4 mx-2 response">
-        <div class="row" >
-            <div class="col-12">
-                <div class="titleAsk">Frequently Asked Questions <br>
-                    <img class="who-are-we-line-mob-2 l8" src="./public/who-are--we--line-mob-2.svg">
-                </div>
-            </div>
-            <div class="col-12  mt-0">
-                <div class="parentAsk">
-                    <div class="row" onclick="showAnswer(event)">
-                        <div class="col-11 m-0 p-0">
-                            1- Lorem ipsum dolor sit amet ?
-                        </div>
-                        <div class="col-1 m-0 p-0" style="font-size: 18px ; font-weight: 900;">
-                            +
-                        </div>
-                        <div class="col-12 m-0 p-0 hidden" >
-                            Lorem ipsum dolor sit amet consectetur. Malesuada adipiscing eu et velit natoque mauris ornare faucibus platea. Lorem ipsum dolor sit amet consectetur.
+                <div class="col-12 " style="margin-top:14px">
+                    <div class="parentAsk">
+                        <div class="row" onclick="showAnswer(event)">
+                            <div class="col-11 m-0 p-0">
+                                1- Lorem ipsum dolor sit amet ?
+                            </div>
+                            <div class="col-1 m-0 p-0" style="font-size: 18px ; font-weight: 900;">
+                                +
+                            </div>
+                            <div class="col-12 m-0 p-0 hidden">
+                                Lorem ipsum dolor sit amet consectetur. Malesuada adipiscing eu et velit natoque mauris
+                                ornare faucibus platea. Lorem ipsum dolor sit amet consectetur.
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 " style="margin-top:14px">
-                <div class="parentAsk">
-                    <div class="row" onclick="showAnswer(event)">
-                        <div class="col-11 m-0 p-0">
-                            1- Lorem ipsum dolor sit amet ?
-                        </div>
-                        <div class="col-1 m-0 p-0" style="font-size: 18px ; font-weight: 900;">
-                            +
-                        </div>
-                        <div class="col-12 m-0 p-0 hidden" >
-                            Lorem ipsum dolor sit amet consectetur. Malesuada adipiscing eu et velit natoque mauris ornare faucibus platea. Lorem ipsum dolor sit amet consectetur.
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 " style="margin-top:14px">
-                <div class="parentAsk">
-                    <div class="row" onclick="showAnswer(event)">
-                        <div class="col-11 m-0 p-0">
-                            1- Lorem ipsum dolor sit amet ?
-                        </div>
-                        <div class="col-1 m-0 p-0" style="font-size: 18px ; font-weight: 900;">
-                            +
-                        </div>
-                        <div class="col-12 m-0 p-0 hidden" >
-                            Lorem ipsum dolor sit amet consectetur. Malesuada adipiscing eu et velit natoque mauris ornare faucibus platea. Lorem ipsum dolor sit amet consectetur.
+                <div class="col-12 " style="margin-top:14px">
+                    <div class="parentAsk">
+                        <div class="row" onclick="showAnswer(event)">
+                            <div class="col-11 m-0 p-0">
+                                1- Lorem ipsum dolor sit amet ?
+                            </div>
+                            <div class="col-1 m-0 p-0" style="font-size: 18px ; font-weight: 900;">
+                                +
+                            </div>
+                            <div class="col-12 m-0 p-0 hidden">
+                                Lorem ipsum dolor sit amet consectetur. Malesuada adipiscing eu et velit natoque mauris
+                                ornare faucibus platea. Lorem ipsum dolor sit amet consectetur.
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                <div class="col-12 " style="margin-top:14px">
+                    <div class="parentAsk">
+                        <div class="row" onclick="showAnswer(event)">
+                            <div class="col-11 m-0 p-0">
+                                1- Lorem ipsum dolor sit amet ?
+                            </div>
+                            <div class="col-1 m-0 p-0" style="font-size: 18px ; font-weight: 900;">
+                                +
+                            </div>
+                            <div class="col-12 m-0 p-0 hidden">
+                                Lorem ipsum dolor sit amet consectetur. Malesuada adipiscing eu et velit natoque mauris
+                                ornare faucibus platea. Lorem ipsum dolor sit amet consectetur.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 " style="margin-top:14px">
+                    <div class="parentAsk">
+                        <div class="row" onclick="showAnswer(event)">
+                            <div class="col-11 m-0 p-0">
+                                1- Lorem ipsum dolor sit amet ?
+                            </div>
+                            <div class="col-1 m-0 p-0" style="font-size: 18px ; font-weight: 900;">
+                                +
+                            </div>
+                            <div class="col-12 m-0 p-0 hidden">
+                                Lorem ipsum dolor sit amet consectetur. Malesuada adipiscing eu et velit natoque mauris
+                                ornare faucibus platea. Lorem ipsum dolor sit amet consectetur.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 " style="margin-top:14px">
+                    <div class="parentAsk">
+                        <div class="row" onclick="showAnswer(event)">
+                            <div class="col-11 m-0 p-0">
+                                1- Lorem ipsum dolor sit amet ?
+                            </div>
+                            <div class="col-1 m-0 p-0" style="font-size: 18px ; font-weight: 900;">
+                                +
+                            </div>
+                            <div class="col-12 m-0 p-0 hidden">
+                                Lorem ipsum dolor sit amet consectetur. Malesuada adipiscing eu et velit natoque mauris
+                                ornare faucibus platea. Lorem ipsum dolor sit amet consectetur.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 " style="margin-top:14px">
+                    <div class="parentAsk">
+                        <div class="row" onclick="showAnswer(event)">
+                            <div class="col-11 m-0 p-0">
+                                1- Lorem ipsum dolor sit amet ?
+                            </div>
+                            <div class="col-1 m-0 p-0" style="font-size: 18px ; font-weight: 900;">
+                                +
+                            </div>
+                            <div class="col-12 m-0 p-0 hidden">
+                                Lorem ipsum dolor sit amet consectetur. Malesuada adipiscing eu et velit natoque mauris
+                                ornare faucibus platea. Lorem ipsum dolor sit amet consectetur.
+                            </div>
 
-            <div class="col-12 " style="margin-top:14px">
-                <div class="parentAsk">
-                    <div class="row" onclick="showAnswer(event)">
-                        <div class="col-11 m-0 p-0">
-                            1- Lorem ipsum dolor sit amet ?
-                        </div>
-                        <div class="col-1 m-0 p-0" style="font-size: 18px ; font-weight: 900;">
-                            +
-                        </div>
-                        <div class="col-12 m-0 p-0 hidden" >
-                            Lorem ipsum dolor sit amet consectetur. Malesuada adipiscing eu et velit natoque mauris ornare faucibus platea. Lorem ipsum dolor sit amet consectetur.
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 " style="margin-top:14px">
-                <div class="parentAsk">
-                    <div class="row" onclick="showAnswer(event)">
-                        <div class="col-11 m-0 p-0">
-                            1- Lorem ipsum dolor sit amet ?
-                        </div>
-                        <div class="col-1 m-0 p-0" style="font-size: 18px ; font-weight: 900;">
-                            +
-                        </div>
-                        <div class="col-12 m-0 p-0 hidden" >
-                            Lorem ipsum dolor sit amet consectetur. Malesuada adipiscing eu et velit natoque mauris ornare faucibus platea. Lorem ipsum dolor sit amet consectetur.
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 " style="margin-top:14px">
-                <div class="parentAsk">
-                    <div class="row" onclick="showAnswer(event)">
-                        <div class="col-11 m-0 p-0">
-                            1- Lorem ipsum dolor sit amet ?
-                        </div>
-                        <div class="col-1 m-0 p-0" style="font-size: 18px ; font-weight: 900;">
-                            +
-                        </div>
-                        <div class="col-12 m-0 p-0 hidden" >
-                            Lorem ipsum dolor sit amet consectetur. Malesuada adipiscing eu et velit natoque mauris ornare faucibus platea. Lorem ipsum dolor sit amet consectetur.
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 " style="margin-top:14px">
-                <div class="parentAsk">
-                    <div class="row" onclick="showAnswer(event)">
-                        <div class="col-11 m-0 p-0">
-                            1- Lorem ipsum dolor sit amet ?
-                        </div>
-                        <div class="col-1 m-0 p-0" style="font-size: 18px ; font-weight: 900;">
-                            +
-                        </div>
-                        <div class="col-12 m-0 p-0 hidden" >
-                            Lorem ipsum dolor sit amet consectetur. Malesuada adipiscing eu et velit natoque mauris ornare faucibus platea. Lorem ipsum dolor sit amet consectetur.
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 " style="margin-top:14px">
-                <div class="parentAsk">
-                    <div class="row" onclick="showAnswer(event)">
-                        <div class="col-11 m-0 p-0">
-                            1- Lorem ipsum dolor sit amet ?
-                        </div>
-                        <div class="col-1 m-0 p-0" style="font-size: 18px ; font-weight: 900;">
-                            +
-                        </div>
-                        <div class="col-12 m-0 p-0 hidden" >
-                            Lorem ipsum dolor sit amet consectetur. Malesuada adipiscing eu et velit natoque mauris ornare faucibus platea. Lorem ipsum dolor sit amet consectetur.
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 " style="margin-top:14px">
-                <div class="parentAsk">
-                    <div class="row" onclick="showAnswer(event)">
-                        <div class="col-11 m-0 p-0">
-                            1- Lorem ipsum dolor sit amet ?
-                        </div>
-                        <div class="col-1 m-0 p-0" style="font-size: 18px ; font-weight: 900;">
-                            +
-                        </div>
-                        <div class="col-12 m-0 p-0 hidden" >
-                            Lorem ipsum dolor sit amet consectetur. Malesuada adipiscing eu et velit natoque mauris ornare faucibus platea. Lorem ipsum dolor sit amet consectetur.
-                        </div>
 
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 " style="margin-top:14px">
-                <div class="parentAsk">
-                    <div class="row" onclick="showAnswer(event)">
-                        <div class="col-11 m-0 p-0">
-                            1- Lorem ipsum dolor sit amet ?
-                        </div>
-                        <div class="col-1 m-0 p-0" style="font-size: 18px ; font-weight: 900;">
-                            +
-                        </div>
-                        <div class="col-12 m-0 p-0 hidden" >
-                            Lorem ipsum dolor sit amet consectetur. Malesuada adipiscing eu et velit natoque mauris ornare faucibus platea. Lorem ipsum dolor sit amet consectetur.
+                <div class="col-12 " style="margin-top:14px">
+                    <div class="parentAsk">
+                        <div class="row" onclick="showAnswer(event)">
+                            <div class="col-11 m-0 p-0">
+                                1- Lorem ipsum dolor sit amet ?
+                            </div>
+                            <div class="col-1 m-0 p-0" style="font-size: 18px ; font-weight: 900;">
+                                +
+                            </div>
+                            <div class="col-12 m-0 p-0 hidden">
+                                Lorem ipsum dolor sit amet consectetur. Malesuada adipiscing eu et velit natoque mauris
+                                ornare faucibus platea. Lorem ipsum dolor sit amet consectetur.
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
 
-        </div>
-    </section>
+            </div>
+        </section>
 
-    <footer>
-        <div class="firstdiv px-4 ">
-            <div class="IconFooter"><img src="./public/facebook-2168281.svg"></div>
-            <div class="IconFooter"><img src="./public/linkedin-2168311-1.svg"></div>
-            <div class="IconFooter"><img src="./public/instagram-2168302.svg"></div>
-            <div class="IconFooter"><img src="./public/social-10110418.svg"></div>
-            <div class="IconFooter"><img src="./public/tiktok-3116491.svg"></div>
-            <div class="IconFooter"><img src="./public/snapchatlogo-4902485.svg"></div>
-            <div class="IconFooter"><img src="./public/pinterest-11376386.svg"></div>
-            <div class="IconFooter"><img src="./public/twitter-5969020-1.svg"></div>
-        </div>
-        <div class="row secoundDiv p-3">
-            <div class="col-8">
-                <img class="footerImage" src="./public/footer-logo-mob-2@2x.png"> <br>
-                <p class="pTag7" style=" margin-top: 9px;">We are a registered American Company operating in the
-                    field
-                    of digital currencies.</p>
-                <p class="pTag3">We have launched a limited edition Bitcoin project to add a special feature for its
-                    owners.</p>
+        <footer>
+            <div class="firstdiv px-4 ">
+                <div class="IconFooter"><img src="./public/facebook-2168281.svg"></div>
+                <div class="IconFooter"><img src="./public/linkedin-2168311-1.svg"></div>
+                <div class="IconFooter"><img src="./public/instagram-2168302.svg"></div>
+                <div class="IconFooter"><img src="./public/social-10110418.svg"></div>
+                <div class="IconFooter"><img src="./public/tiktok-3116491.svg"></div>
+                <div class="IconFooter"><img src="./public/snapchatlogo-4902485.svg"></div>
+                <div class="IconFooter"><img src="./public/pinterest-11376386.svg"></div>
+                <div class="IconFooter"><img src="./public/twitter-5969020-1.svg"></div>
             </div>
-            <div class="col-4">
-                <h6 class="pTag7" style="color: #e0bc85;">Make it more easy with install our app</h6>
-                <img class="footerImage2" src="./public/google-play-mob-2@2x.png"> <br>
-                <img class="footerImage2" src="./public/app-store-mob-2@2x.png">
-            </div>
-        </div>
-    </footer>
-    <div class="sidebar py-5 px-3" id="sideBar">
-
-        <div class="row g-1">
-            <div class="col-12 mb-3" id="closeSideBar">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="26" height="26">
-                    <path fill="#b6bdc7"
-                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z" />
-                </svg>
-            </div>
-            <div class="col-12 mb-2">
-                <div class="connectWallet">
-                    <h3 class="m-0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 20" width="12" height="15">
-                            <rect width="15" height="20" x="0" y="0" rx="2" ry="2" fill="none" stroke="#627EEA"
-                                stroke-width="2" />
-                        </svg>&nbsp;&nbsp;&nbsp;
-                        Connect Wallet</h3>
+            <div class="row secoundDiv p-3">
+                <div class="col-8">
+                    <img class="footerImage" src="./public/footer-logo-mob-2@2x.png"> <br>
+                    <p class="pTag7" style=" margin-top: 9px;">We are a registered American Company operating in the
+                        field
+                        of digital currencies.</p>
+                    <p class="pTag3">We have launched a limited edition Bitcoin project to add a special feature for its
+                        owners.</p>
+                </div>
+                <div class="col-4">
+                    <h6 class="pTag7" style="color: #e0bc85;">Make it more easy with install our app</h6>
+                    <img class="footerImage2" src="./public/google-play-mob-2@2x.png"> <br>
+                    <img class="footerImage2" src="./public/app-store-mob-2@2x.png">
                 </div>
             </div>
-            <div class="col-12 mb-3">
-                <div class="connectWallet">
-                    <h4 class="m-0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="24"
-                            height="24">
-                            <path fill="#627EEA"
-                                d="M248 8c-136.97 0-248 111.03-248 248s111.03 248 248 248 248-111.03 248-248S384.97 8 248 8zm0 448c-110.38 0-200-89.61-200-200S137.62 56 248 56s200 89.61 200 200-89.62 200-200 200zm-16-284l80 128-80 128-80-128zm80 0l-80 128 80-128z" />
-                        </svg>
-                        &nbsp;&nbsp;&nbsp;Ethereum &nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24" width="20" height="20">
-                            <path fill="#627EEA"
-                                d="M12 15.41l-4.59-4.59a.996.996 0 0 0-1.41 1.41l5.3 5.3a.996.996 0 0 0 1.41 0l5.3-5.3a.996.996 0 1 0-1.41-1.41L12 15.41z" />
-                        </svg>
-                    </h4>
+        </footer>
+        <div class="sidebar py-5 px-3" id="sideBar">
+
+            <div class="row g-1">
+                <div class="col-12 mb-3" id="closeSideBar">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="26" height="26">
+                        <path fill="#b6bdc7"
+                            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z" />
+                    </svg>
+                </div>
+                <div class="col-12 mb-2">
+                    <div class="connectWallet">
+                        <h3 class="m-0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 20" width="12"
+                                height="15">
+                                <rect width="15" height="20" x="0" y="0" rx="2" ry="2" fill="none" stroke="#627EEA"
+                                    stroke-width="2" />
+                            </svg>&nbsp;&nbsp;&nbsp;
+                            Connect Wallet</h3>
+                    </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <div class="connectWallet">
+                        <h4 class="m-0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="24"
+                                height="24">
+                                <path fill="#627EEA"
+                                    d="M248 8c-136.97 0-248 111.03-248 248s111.03 248 248 248 248-111.03 248-248S384.97 8 248 8zm0 448c-110.38 0-200-89.61-200-200S137.62 56 248 56s200 89.61 200 200-89.62 200-200 200zm-16-284l80 128-80 128-80-128zm80 0l-80 128 80-128z" />
+                            </svg>
+                            &nbsp;&nbsp;&nbsp;Ethereum &nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" width="20" height="20">
+                                <path fill="#627EEA"
+                                    d="M12 15.41l-4.59-4.59a.996.996 0 0 0-1.41 1.41l5.3 5.3a.996.996 0 0 0 1.41 0l5.3-5.3a.996.996 0 1 0-1.41-1.41L12 15.41z" />
+                            </svg>
+                        </h4>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12 mt-1">
-                <a href="swap.html">
-                    <h4>Swap Now</h4>
+            <div class="row">
+                <div class="col-12 mt-1">
+                    <a href="swap.html">
+                        <h4>Swap Now</h4>
+                    </a>
+                </div>
+                <a class="col-12" href="index.html#whoAreWe" onclick="colseSidePar2()">
+                    <h4> Who are we ?</h4>
+                </a>
+                <a class="col-12" href="index.html#ipo" onclick="colseSidePar2()">
+                    <h4>IPO policy</h4>
+                </a>
+                <a class="col-12" href="index.html#howTobuy" onclick="colseSidePar2()">
+                    <h4>How to buy ?</h4>
+                </a>
+                <a class="col-12" href="index.html#ourVision" onclick="colseSidePar2()">
+                    <h4>our vision</h4>
+                </a>
+                <a class="col-12" href="index.html#ourMessage" onclick="colseSidePar2()">
+                    <h4>Our message</h4>
+                </a>
+                <a class="col-12" href="index.html#whitePapperId" onclick="colseSidePar2()">
+                    <h4>WHITE PAPPERS</h4>
+                </a>
+                <a class="col-12" href="index.html#companyMotto" onclick="colseSidePar2()">
+                    <h4>Company motto</h4>
+                </a>
+                <a class="col-12" href="index.html#btcleGoales" onclick="colseSidePar2()">
+                    <h4>BTCLE Goals</h4>
                 </a>
             </div>
-            <a class="col-12" href="index.html#whoAreWe" onclick="colseSidePar2()">
-                <h4> Who are we ?</h4>
-            </a>
-            <a class="col-12" href="index.html#ipo" onclick="colseSidePar2()">
-                <h4>IPO policy</h4>
-            </a>
-            <a class="col-12" href="index.html#howTobuy" onclick="colseSidePar2()">
-                <h4>How to buy ?</h4>
-            </a>
-            <a class="col-12" href="index.html#ourVision" onclick="colseSidePar2()">
-                <h4>our vision</h4>
-            </a>
-            <a class="col-12" href="index.html#ourMessage" onclick="colseSidePar2()">
-                <h4>Our message</h4>
-            </a>
-            <a class="col-12" href="index.html#whitePapperId" onclick="colseSidePar2()">
-                <h4>WHITE PAPPERS</h4>
-            </a>
-            <a class="col-12" href="index.html#companyMotto" onclick="colseSidePar2()">
-                <h4>Company motto</h4>
-            </a>
-            <a class="col-12" href="index.html#btcleGoales" onclick="colseSidePar2()">
-                <h4>BTCLE Goals</h4>
-            </a>
-        </div>
-        <div class="row mt-2">
-            <div class="col-2 p-1">
-                <div class="IconFooter2"> <img class="facebook-2168281-icon2" loading="lazy" alt=""
-                        src="./public/facebook-21682811.svg" /></div>
-            </div>
-            <div class="col-2 p-1">
-                <div class="IconFooter2"><img class="linkedin-2168311-1-icon2" loading="lazy" alt=""
-                        src="./public/linkedin-2168311-11.svg" /></div>
-            </div>
-            <div class="col-2 p-1">
-                <div class="IconFooter2"><img src="./public/instagram-2168302.svg"></div>
-            </div>
-            <div class="col-12 p-1 mt-2">
-                <h6 style="color: #dfb372;">Make it more easy with <br>
-                    install our app</h6>
-            </div>
+            <div class="row mt-2">
+                <div class="col-2 p-1">
+                    <div class="IconFooter2"> <img class="facebook-2168281-icon2" loading="lazy" alt=""
+                            src="./public/facebook-21682811.svg" /></div>
+                </div>
+                <div class="col-2 p-1">
+                    <div class="IconFooter2"><img class="linkedin-2168311-1-icon2" loading="lazy" alt=""
+                            src="./public/linkedin-2168311-11.svg" /></div>
+                </div>
+                <div class="col-2 p-1">
+                    <div class="IconFooter2"><img src="./public/instagram-2168302.svg"></div>
+                </div>
+                <div class="col-12 p-1 mt-2">
+                    <h6 style="color: #dfb372;">Make it more easy with <br>
+                        install our app</h6>
+                </div>
 
-            <div class="col-5 p-1"><img width="100%" src="./public/google-play-mob-2@2x.png"></div>
-            <div class="col-5 p-1"><img width="100%" src="./public/app-store-mob-2@2x.png"></div>
+                <div class="col-5 p-1"><img width="100%" src="./public/google-play-mob-2@2x.png"></div>
+                <div class="col-5 p-1"><img width="100%" src="./public/app-store-mob-2@2x.png"></div>
+            </div>
         </div>
+
+        <script>
+            var openSideBar = document.getElementById('openSideBar');
+            var closeSideBar = document.getElementById('closeSideBar');
+            var sideBar = document.getElementById('sideBar');
+            var homeSection = document.getElementById('homeSection');
+            var swapSection = document.getElementById('swapSection');
+            var swapNow = document.getElementById('swapNow');
+
+            openSideBar.addEventListener('click', function () {
+                sideBar.style.right = '0vw';
+            });
+
+            closeSideBar.addEventListener('click', function () {
+                sideBar.style.right = '100vw';
+            });
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+
+            function showAnswer(event) {
+                var row = event.currentTarget;
+                var hiddenDiv = row.querySelector('.hidden');
+
+                if (hiddenDiv) {
+                    var currentHeight = hiddenDiv.clientHeight;
+
+                    if (currentHeight === 0) {
+
+                        hiddenDiv.style.height = 'auto';
+                    } else {
+                        hiddenDiv.style.height = '0px';
+                    }
+                }
+            }
+        </script>
     </div>
+    <div class="homepc1">
+        <main class="frame-group">
+          <section class="home-header-group">
+            <header class="home-header1">
+              <img
+                class="logo-pc-icon2"
+                loading="lazy"
+                alt=""
+                src="./public/logo-pc@2x.png"
+                id="logoPcImage"
+              />
+  
+              <div class="header-actions">
+                <button class="connect-wallet-btn1">
+                  <img
+                    class="ant-designswap-outlined-icon"
+                    alt=""
+                    src="./public/antdesignswapoutlined.svg"
+                  />
+  
+                  <div class="swap2">Swap</div>
+                </button>
+                <div class="settings1">
+                  <img
+                    class="gear-icon2"
+                    loading="lazy"
+                    alt=""
+                    src="./public/gear.svg"
+                  />
+                </div>
+              </div>
+            </header>
+            <div class="nav-bar1">
+              <div class="nav-bar-links">
+                <div class="who-are-we2">
+                  <div class="who-are-we3">Who are we ?</div>
+                </div>
+                <div class="our-message1">
+                  <div class="who-are-we4">Our message</div>
+                </div>
+                <div class="ipo-policy3">
+                  <div class="who-are-we5">IPO policy</div>
+                </div>
+                <div class="how-to-buy1">
+                  <div class="who-are-we6">Distribution PIE</div>
+                </div>
+                <div class="our-vision3">
+                  <div class="who-are-we7">Target price</div>
+                </div>
+                <div class="how-to-buy2">
+                  <div class="who-are-we8">Channels</div>
+                </div>
+                <div class="company-motto2">
+                  <div class="who-are-we9">Company motto</div>
+                </div>
+                <div class="white-pappers1">
+                  <div class="who-are-we10">White pappers</div>
+                </div>
+                <div class="how-to-buy3">
+                  <div class="who-are-we11">Disclaimer</div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="frame-child"></div>
+          <section class="frequently-asked-questions1">
+            <div class="who-are-we-container1">
+              <div class="who-are-we-header1">
+                <h3 class="frequently-asked-questions2">
+                  Frequently Asked Questions
+                </h3>
+                <div class="wrapper-who-are-we-line1">
+                  <img
+                    class="who-are-we-line1"
+                    loading="lazy"
+                    alt=""
+                    src="./public/who-are--we--line.svg"
+                  />
+                </div>
+              </div>
+              <div class="f-a-q-items">
+                <div class="faq">
+                  <div class="f-a-q-answer-container">
+                    <div class="lorem-ipsum-dolor">
+                      1- Lorem ipsum dolor sit amet ?
+                    </div>
+                    <img
+                      class="mdiadd-bold-icon"
+                      alt=""
+                      src="./public/mdiaddbold.svg"
+                    />
+                  </div>
+                </div>
+                <div class="faq1">
+                  <div class="lorem-ipsum-dolor-sit-amet-parent">
+                    <div class="lorem-ipsum-dolor1">
+                      2- Lorem ipsum dolor sit amet ?
+                    </div>
+                    <img
+                      class="mdiadd-bold-icon1"
+                      alt=""
+                      src="./public/mdiaddbold.svg"
+                    />
+                  </div>
+                </div>
+                <div class="faq2">
+                  <div class="lorem-ipsum-dolor-sit-amet-group">
+                    <div class="lorem-ipsum-dolor2">
+                      3- Lorem ipsum dolor sit amet ?
+                    </div>
+                    <img
+                      class="mdiadd-bold-icon2"
+                      alt=""
+                      src="./public/mdiaddbold.svg"
+                    />
+                  </div>
+                </div>
+                <div class="faq3">
+                  <div class="lorem-ipsum-dolor-sit-amet-container">
+                    <div class="lorem-ipsum-dolor3">
+                      4- Lorem ipsum dolor sit amet ?
+                    </div>
+                    <img
+                      class="mdiadd-bold-icon3"
+                      alt=""
+                      src="./public/mdiaddbold.svg"
+                    />
+                  </div>
+                </div>
+                <div class="faq4">
+                  <div class="frame-div">
+                    <div class="lorem-ipsum-dolor4">
+                      5- Lorem ipsum dolor sit amet ?
+                    </div>
+                    <img
+                      class="mdiadd-bold-icon4"
+                      alt=""
+                      src="./public/mdiaddbold.svg"
+                    />
+                  </div>
+                </div>
+                <div class="faq5">
+                  <div class="lorem-ipsum-dolor-sit-amet-parent1">
+                    <div class="lorem-ipsum-dolor5">
+                      6- Lorem ipsum dolor sit amet ?
+                    </div>
+                    <img
+                      class="mdiadd-bold-icon5"
+                      alt=""
+                      src="./public/mdiaddbold.svg"
+                    />
+                  </div>
+                </div>
+                <div class="faq6">
+                  <div class="lorem-ipsum-dolor-sit-amet-parent2">
+                    <div class="lorem-ipsum-dolor6">
+                      7- Lorem ipsum dolor sit amet ?
+                    </div>
+                    <img
+                      class="mdiadd-bold-icon6"
+                      alt=""
+                      src="./public/mdiaddbold.svg"
+                    />
+                  </div>
+                </div>
+                <div class="faq7">
+                  <div class="lorem-ipsum-dolor-sit-amet-parent3">
+                    <div class="lorem-ipsum-dolor7">
+                      8- Lorem ipsum dolor sit amet ?
+                    </div>
+                    <img
+                      class="mdiadd-bold-icon7"
+                      alt=""
+                      src="./public/mdiaddbold.svg"
+                    />
+                  </div>
+                </div>
+                <div class="faq8">
+                  <div class="lorem-ipsum-dolor-sit-amet-parent4">
+                    <div class="lorem-ipsum-dolor8">
+                      10- Lorem ipsum dolor sit amet ?
+                    </div>
+                    <img
+                      class="mdiadd-bold-icon8"
+                      alt=""
+                      src="./public/mdiaddbold.svg"
+                    />
+                  </div>
+                </div>
+                <div class="faq9">
+                  <div class="lorem-ipsum-dolor-sit-amet-parent5">
+                    <div class="lorem-ipsum-dolor9">
+                      11- Lorem ipsum dolor sit amet ?
+                    </div>
+                    <img
+                      class="mdiadd-bold-icon9"
+                      alt=""
+                      src="./public/mdiaddbold.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="footer-container1">
+            <div class="logos-section1">
+              <div class="social-links1">
+                <div class="facebook-2168281-container">
+                  <img
+                    class="facebook-2168281-icon1"
+                    loading="lazy"
+                    alt=""
+                    src="./public/facebook-2168281.svg"
+                  />
+                </div>
+                <div class="linkedin-2168311-1-container">
+                  <img
+                    class="linkedin-2168311-1-icon1"
+                    loading="lazy"
+                    alt=""
+                    src="./public/linkedin-2168311-1.svg"
+                  />
+                </div>
+                <div class="wrapper-instagram-2168302-container">
+                  <div class="wrapper-instagram-21683021">
+                    <img
+                      class="instagram-2168302-icon1"
+                      loading="lazy"
+                      alt=""
+                      src="./public/instagram-2168302.svg"
+                    />
+                  </div>
+                </div>
+                <div class="youtube1">
+                  <img
+                    class="social-10110418-icon1"
+                    loading="lazy"
+                    alt=""
+                    src="./public/social-10110418.svg"
+                  />
+                </div>
+                <div class="tiktok1">
+                  <img
+                    class="tiktok-3116491-icon1"
+                    loading="lazy"
+                    alt=""
+                    src="./public/tiktok-3116491.svg"
+                  />
+                </div>
+                <div class="snap-chat1">
+                  <img
+                    class="snapchat-logo-4902485-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/snapchatlogo-4902485.svg"
+                  />
+                </div>
+                <div class="pinterest1">
+                  <img
+                    class="pinterest-11376386-icon1"
+                    loading="lazy"
+                    alt=""
+                    src="./public/pinterest-11376386.svg"
+                  />
+                </div>
+                <div class="telegram1">
+                  <img
+                    class="twitter-5969020-1-icon1"
+                    loading="lazy"
+                    alt=""
+                    src="./public/twitter-5969020-1.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <footer class="footer1">
+              <div class="footer-container2">
+                <div class="footer-bio1">
+                  <img
+                    class="footer-logo-icon1"
+                    loading="lazy"
+                    alt=""
+                    src="./public/footer-logo@2x.png"
+                  />
+  
+                  <div class="we-are-a-container1">
+                    <span>
+                      <p class="we-are-a1">
+                        We are a registered American Company operating in the
+                        field of digital currencies.
+                      </p>
+                      <p class="blank-line2">&nbsp;</p>
+                      <p class="we-have-launched1">
+                        We have launched a limited edition Bitcoin project to add
+                        a special feature for its owners.
+                      </p>
+                    </span>
+                  </div>
+                </div>
+                <div class="install-our-app-container1">
+                  <div class="make-it-more1">
+                    Make it more easy with install our app
+                  </div>
+                  <div class="app-store-icons">
+                    <img
+                      class="google-play-icon1"
+                      loading="lazy"
+                      alt=""
+                      src="./public/google-play1@2x.png"
+                    />
+  
+                    <img
+                      class="app-store-icon1"
+                      loading="lazy"
+                      alt=""
+                      src="./public/app-store1@2x.png"
+                    />
+                  </div>
+                </div>
+              </div>
+            </footer>
+          </section>
+        </main>
+      </div>
 
-    <script>
-        var openSideBar = document.getElementById('openSideBar');
-        var closeSideBar = document.getElementById('closeSideBar');
-        var sideBar = document.getElementById('sideBar');
-        var homeSection = document.getElementById('homeSection');
-        var swapSection = document.getElementById('swapSection');
-        var swapNow = document.getElementById('swapNow');
-
-        openSideBar.addEventListener('click', function () {
-            sideBar.style.right = '0vw';
-        });
-
-        closeSideBar.addEventListener('click', function () {
-            sideBar.style.right = '100vw';
-        });
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-
-function showAnswer(event) {
-    var row = event.currentTarget; 
-    var hiddenDiv = row.querySelector('.hidden');
-
-    if (hiddenDiv) {
-        var currentHeight = hiddenDiv.clientHeight;
-
-        if (currentHeight === 0) {
-
-            hiddenDiv.style.height = 'auto'; 
-        } else {
-            hiddenDiv.style.height = '0px'; 
+      <script>
+        function changeStylesheet() {
+            var link2 = document.getElementById('faqstylesheet');
+            if (window.innerWidth > 800) {
+                link2.href = 'css2.css'; 
+            } else {
+                link2.href = 'css.css';
+            }
         }
-    }
-}
+        changeStylesheet();
+        window.addEventListener('resize', changeStylesheet);
 
-
-
-
-
-
-    </script>
+      </script>
 </body>
 
 </html>

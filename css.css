@@ -635,6 +635,12 @@ font-size: 12px;
     #mobileBody{
         display: none  !important;
     }
+    #faqMobile{
+        display: none  !important;
+    }
+    #faqLab{
+        display: block  !important;
+    }
     
 }
 
