@@ -361,6 +361,7 @@ a{
   }
   .header-1-icon {
     height: 100%;
+    /* width: 100%; */
     width: 100%;
     position: absolute;
     margin: 0 !important;
