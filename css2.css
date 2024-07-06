@@ -1971,8 +1971,9 @@ a{
   }
   .telegram-channels-container::-webkit-scrollbar {
     width: 0px;
-
   }
+
+  
   .telegram-channels-section {
     display: flex;
     flex-direction: column;
