@@ -20,12 +20,23 @@ function colseSidePar2(){
 
 function copyText() {
   var text = document.getElementById("textToCopy");
+  var text2 = document.getElementById("textToCopy2");
 
   var range = document.createRange();
   range.selectNode(text);
 
   window.getSelection().removeAllRanges(); // Clear current selection
   window.getSelection().addRange(range);
+
+  document.execCommand("copy");
+
+  window.getSelection().removeAllRanges();
+
+  var range2 = document.createRange();
+  range2.selectNode(text2);
+
+  window.getSelection().removeAllRanges(); // Clear current selection
+  window.getSelection().addRange(range2);
 
   document.execCommand("copy");
 
@@ -37,6 +48,8 @@ document.getElementById('hero-video_1').addEventListener('click', function() {
   playVideo(videoPath);
 });
 
+
+
 document.getElementById('hero-video_2').addEventListener('click', function() {
   var videoPath = this.getAttribute('data-video-path');
   playVideo(videoPath);
@@ -46,6 +59,8 @@ document.getElementById('hero-video_3').addEventListener('click', function() {
   var videoPath = this.getAttribute('data-video-path');
   playVideo(videoPath);
 });
+
+
 
 function playVideo(videoPath) {
   Swal.fire({
@@ -128,3 +143,16 @@ function isInViewport(element) {
   window.addEventListener('scroll', handleScroll);
    
 
+// Function to change stylesheet based on viewport width
+function changeStylesheet() {
+  var link = document.getElementById('stylesheet');
+  if (window.innerWidth > 800) {
+    link.href = 'css2.css'; 
+  } else {
+    link.href = 'css.css';
+  }
+}
+changeStylesheet();
+window.addEventListener('resize', changeStylesheet);
+
+  
