@@ -43,44 +43,7 @@ function copyText() {
   window.getSelection().removeAllRanges();
 }
 
-document.getElementById('hero-video_1').addEventListener('click', function() {
-  var videoPath = this.getAttribute('data-video-path');
-  playVideo(videoPath);
-});
 
-
-
-document.getElementById('hero-video_2').addEventListener('click', function() {
-  var videoPath = this.getAttribute('data-video-path');
-  playVideo(videoPath);
-});
-
-document.getElementById('hero-video_3').addEventListener('click', function() {
-  var videoPath = this.getAttribute('data-video-path');
-  playVideo(videoPath);
-});
-
-
-
-function playVideo(videoPath) {
-  Swal.fire({
-      html: `<video width="100%" controls autoplay><source src="${videoPath}" type="video/mp4"></video>`,
-      showConfirmButton: false,
-      showCloseButton: true,
-      customClass: 'swal-wide',
-      onOpen: () => {
-          // Pause the video on open
-          var video = Swal.getContent().querySelector('video');
-          video.pause();
-      },
-      onClose: () => {
-          var video = Swal.getContent().querySelector('video');
-          video.pause();
-          video.removeAttribute('src');
-          video.load();
-      }
-  });
-}
 
 function isInViewport(element) {
   const rect = element.getBoundingClientRect();
@@ -145,7 +108,6 @@ function isInViewport(element) {
   window.addEventListener('scroll', handleScroll);
    
 
-// Function to change stylesheet based on viewport width
 function changeStylesheet() {
   var link = document.getElementById('stylesheet');
   if (window.innerWidth > 800) {
