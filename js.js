@@ -88,17 +88,11 @@ function isInViewport(element) {
   const elementHalfwayPoint = rect.top + (rect.height / 2);
 
   return (
-      elementHalfwayPoint >= 0 &&
+      elementHalfwayPoint >= 0 
+      &&
       elementHalfwayPoint <= viewportHeight
   );
 }
-//   function isInViewport(element) {
-//     const rect = element.getBoundingClientRect();
-//     return (
-//         rect.top <= window.innerHeight / 2 &&
-//         rect.bottom >= window.innerHeight / 2
-//     );
-// }
   
   
   function handleScroll() {
