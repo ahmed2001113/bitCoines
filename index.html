@@ -977,7 +977,7 @@
                     <img class="about-us-pic" loading="lazy" alt="" src="./public/who-are-we-pic-mob-2@2x.png" />
                 </div>
             </section>
-            <hr style="width: 80%; color: #fff;">
+            <hr style="width: 80%; color: #fff; margin: auto;">
             <div id="ourMessage"></div>
             <section class="our-community-message-section">
                 <div class="our-community-message-containe">
@@ -1707,6 +1707,7 @@
 
 
             //  ----------------------------
+    
             const scrollableDiv = document.getElementById('scrollableDiv');
 
             let isDown = false;
@@ -1716,33 +1717,34 @@
             let scrollTop;
 
             scrollableDiv.addEventListener('mousedown', function(e) {
-            isDown = true;
-            startX = e.pageX - scrollableDiv.offsetLeft;
-            startY = e.pageY - scrollableDiv.offsetTop;
-            scrollLeft = scrollableDiv.scrollLeft;
-            scrollTop = scrollableDiv.scrollTop;
+                isDown = true;
+                startX = e.pageX - scrollableDiv.offsetLeft;
+                startY = e.pageY - scrollableDiv.offsetTop;
+                scrollLeft = scrollableDiv.scrollLeft;
+                scrollTop = scrollableDiv.scrollTop;
+                e.preventDefault();
             });
 
             scrollableDiv.addEventListener('mouseleave', function() {
-            isDown = false;
+                isDown = false;
             });
 
             scrollableDiv.addEventListener('mouseup', function() {
-            isDown = false;
+                isDown = false;
             });
 
             scrollableDiv.addEventListener('mousemove', function(e) {
-            if (!isDown) return;
-            e.preventDefault();
-            const x = e.pageX - scrollableDiv.offsetLeft;
-            const y = e.pageY - scrollableDiv.offsetTop;
-            const walkX = (x - startX) * 3; // Adjust scrolling sensitivity
-            const walkY = (y - startY) * 3; // Adjust scrolling sensitivity
-            scrollableDiv.scrollLeft = scrollLeft - walkX;
-            scrollableDiv.scrollTop = scrollTop - walkY;
+                if (!isDown) return;
+                e.preventDefault();
+
+                const x = e.pageX - scrollableDiv.offsetLeft;
+                const y = e.pageY - scrollableDiv.offsetTop;
+                const walkX = (x - startX) * 3; 
+                const walkY = (y - startY) * 3; 
+
+                scrollableDiv.scrollLeft = scrollLeft - walkX;
+                scrollableDiv.scrollTop = scrollTop - walkY;
             });
-
-
 
         </script>
 

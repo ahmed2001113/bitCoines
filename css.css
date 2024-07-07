@@ -2,7 +2,9 @@
 box-sizing: border-box;
 padding: 0 ;
 }
-
+.homepc1{
+    display: none !important;
+}
 html {
     scroll-behavior: smooth;
 }  
@@ -374,6 +376,7 @@ background-color: grey;
     height: 50px;
     display: flex;
     white-space: nowrap;
+    background-color: #1b1e28;
 }
 .IconFooter img{
     width: 20px !important;
@@ -586,6 +589,9 @@ font-size: 12px;
 }
 .iconswalletconnect img{
     width: 40px;
+}
+.secoundDiv{
+    background-color: #272a35;
 }
 .sectionSwap{
     background-color: #1b1d2a;

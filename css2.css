@@ -904,6 +904,7 @@ a{
   }
   .ipo-policy2 {
     margin: 0;
+    margin-bottom: 10px;
     color: var(--additional);
   }
   .regarding-the-developers,
@@ -2201,6 +2202,7 @@ a{
   }
   .our-vision1 {
     margin: 0;
+    margin-bottom: 10px;
     font-size: var(--medium-24px-size);
     font-weight: 500;
     color: var(--additional);
@@ -2214,6 +2216,7 @@ a{
   }
   .our-mission {
     margin: 0;
+    margin-bottom: 10px;
     font-size: var(--medium-24px-size);
     font-weight: 500;
     color: var(--additional);
@@ -2501,10 +2504,10 @@ a{
     flex-shrink: 0;
     object-fit: contain;
     position: absolute;
-    left: 0;
+    left: -4px ;
     top: -3px;
     width: 100%;
-    transform: scale(1.482);
+    transform: scale(1.1);
   }
   .wrapper-whitepappersline {
     align-self: stretch;
