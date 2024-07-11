@@ -4755,7 +4755,7 @@ cursor: pointer;
     width: 1030px !important;
   }
   .visa-card-card {
-    width: 425px;
+    width: 440px;
   }
   .smallnumbercard {
     width: 275px;
@@ -4764,8 +4764,8 @@ cursor: pointer;
     width: 275px;
   }
   .small-number-pic , .platform-pic-mob-2 {
-    width: 240px;
-    height: 230px;
+    width: 260px;
+    height: 250px;
   }
   .future-plan-header {
     width: 175px;
@@ -4814,7 +4814,7 @@ cursor: pointer;
     height: 220px;
   }
   .visa-card-pic-mob-2 {
-    height:230px;
+    height:250px;
   }
   .vedio-3-icon{
     height:495px;
@@ -4846,16 +4846,17 @@ cursor: pointer;
     font-size: 26px;
   }
   .limited ,.platform , .visa-card{
-    font-size: 20px;
+    font-size: 21px;
+    margin-bottom: 7px;
   }
-  .through-our-platform{
-    font-size: 14px;
+  .through-our-platform , .through-our-platform , .the-coin-will {
+    font-size: 13px;
   } 
   .several-factors-support{
     font-size: 26px;
     margin-bottom: 20px;
   }
-  .explore-various-platforms, .for-additional-information, .utilize-our-website ,.regarding-the-developers, .the-currency-will, .the-initial-price, .the-maximum-offering, .this-policy-will, .we-kindly-ask ,.span2, .we-will-strive , .our-nontraditional-strategies , .its-limited-and , .we-are-part-container{
+  .explore-various-platforms, .for-additional-information, .utilize-our-website ,.regarding-the-developers, .the-currency-will, .the-initial-price, .the-maximum-offering, .this-policy-will, .we-kindly-ask ,.span2, .we-will-strive , .we-are-part-container{
     font-size: 24px;
   }
   .ipo-policy-header{
@@ -4865,7 +4866,16 @@ cursor: pointer;
     width: 275px;
   }
   .telegram-channels-language {
-    width: 242px;
+    width: 342px;
+  }
+  .target-price-header {
+    width: 162px
+  }
+  .our-nontraditional-strategies , .its-limited-and{
+    font-size: 23px;
+  }
+  .development-card , .small-number-card{
+    padding: 16px !important;
   }
   .our-vision-to-make-our-cryptoc-parent , .converting-tokens-into, .to-continuously-and{
     font-size: 22px;
