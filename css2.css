@@ -4705,7 +4705,7 @@ cursor: pointer;
     width: 1030px;
   }
   .an-american-registered{
-    font-size: 21px;
+    font-size: 23px;
   }
   .our-community-message-containe{
     width: 1030px;
@@ -4797,7 +4797,7 @@ cursor: pointer;
     height:495px;
   }
   .about-us-pic{
-    width: 220px;
+    height: 220px;
   } 
   .video-background-icon{
     height:495px;
@@ -4809,13 +4809,34 @@ cursor: pointer;
     height:495px;
   }
   .aboutuspic-icon{
-    width: 220px;
+    height: 220px;
   }
   .visa-card-pic-mob-2 {
     height:230px;
   }
   .vedio-3-icon{
     height:495px;
+  }
+  .make-it-more {
+    font-size: 23px;
+  }
+  .app-store-links {
+    width: 230px;
+  }
+  .google-play-icon{
+    width: 165px;
+  }
+  .app-store-icon{
+    width: 165px;
+  }
+  .our-community-message-header{
+    width: 340px;
+  }
+  .our-community-message{
+    font-size: 26px;
+  }
+  .to-the-bitcoin{
+    font-size: 24px;
   }
 }
 
