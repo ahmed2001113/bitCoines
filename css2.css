@@ -4719,7 +4719,10 @@ cursor: pointer;
     width: 1030px;
   }
   .chart-title-wrapper{
-    width: 270px;
+    width: 275px;
+  }
+  .howtobuybitcoinlimitedheader {
+    width: 362px;
   }
   .distribution-content {
     width: 1030px;
@@ -4833,7 +4836,7 @@ cursor: pointer;
   }
 
   .our-community-message-header {
-    width: 340px;
+    width: 300px;
     margin-top: -40px;
   }
   .our-community-message{
@@ -4849,7 +4852,7 @@ cursor: pointer;
     font-size: 21px;
     margin-bottom: 7px;
   }
-  .through-our-platform , .through-our-platform , .the-coin-will {
+  .through-our-platform , .the-total-number , .the-coin-will {
     font-size: 13px;
   } 
   .several-factors-support{
@@ -4860,13 +4863,7 @@ cursor: pointer;
     font-size: 24px;
   }
   .ipo-policy-header{
-    width: 160px;
-  }
-  .ipo-policy-header{
-    width: 275px;
-  }
-  .telegram-channels-language {
-    width: 342px;
+    width: 161px;
   }
   .target-price-header {
     width: 162px
@@ -4882,6 +4879,16 @@ cursor: pointer;
   }
   .white-pappers-cards{
     width: 100%;
+  }
+  .how-to-buy-bitcoin-limited-hea {
+    margin-top: -30px;
+  }
+  .name-bitcoin-limited-container, .max-supply-210000-container ,.name-bitcoin-limited-container ,.total-supply-189000-container ,.start-price-1-container ,.smart-contract-0x9d2144328e1d6-container{
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  .x9d2144328e1d618f54cd38540f5ee1{
+    font-size: 22px;
   }
 }
 
