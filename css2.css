@@ -4602,94 +4602,195 @@ cursor: pointer;
     gap: var(--gap-xl);
   }
 }
-/* new */
-@media screen and (min-width: 1230px) {
+
+@media (min-width: 1230px) {
   .frequently-asked-questions2{
-    font-size: 35px !important;
+    font-size: 35px;
   }
   .who-are-we-header1{
-    width: 500px !important;
+    width: 500px;
   }
   .who-are-we-container1{
     width: 800px !important;
   }
   .lorem-ipsum-dolor{
-    font-size: 20px !important;
+    font-size: 20px;
   }
   .faq{
-    display: flex !important;
-    align-items: center !important;
+    display: flex;
+    align-items: center;
   }
   .lorem-ipsum-dolor{
-    height: 25px !important;
+    height: 25px;
   }
   .who-are-we2{
-    font-size:15px  !important;
+    font-size:16px ;
   }
   .who-are-we3{
-    font-size:15px !important;
+    font-size:16px ;
   }
   .who-are-we4{
-    font-size:15px !important;
+    font-size:16px ;
   }
   .who-are-we5{
-    font-size:15px !important;
+    font-size:16px ;
   }
   .who-are-we6{
-    font-size:15px !important;
+    font-size:16px ;
   }
   .who-are-we7{
-    font-size:15px !important;
+    font-size:16px ;
   }
   .who-are-we8{
-    font-size:15px !important;
+    font-size:16px ;
   }
   .who-are-we9{
-    font-size:15px !important;
+    font-size:16px ;
   }
   .who-are-we10{
-    font-size:15px !important;
+    font-size:16px ;
   }
   .who-are-we11{
-    font-size:15px !important;
+    font-size:16px ;
   }
   .whoarewe {
-    font-size:15px !important ;
+    font-size:16px !important ;
   }
   .who-are-we-2 {
-    font-size:15px !important ;
+    font-size:16px !important ;
   }
   .who-are-we-3 {
-    font-size:15px !important ;
+    font-size:16px !important ;
   }
   .who-are-we-4 {
-    font-size:15px !important ;
+    font-size:16px !important ;
   }
   .who-are-we-5 {
-    font-size:15px !important ;
+    font-size:16px !important ;
   }
   .who-are-we-6 {
-    font-size:15px !important ;
+    font-size:16px !important ;
   }
   .who-are-we-7 {
-    font-size:15px !important ;
+    font-size:16px !important ;
   }
   .who-are-we-8 {
-    font-size:15px !important ;
+    font-size:16px !important ;
   }
   .who-are-we-9 {
-    font-size:15px !important ;
+    font-size:16px !important ;
   }
   .navigation  {
-    width: 900px !important;
+    width: 980px;
   }
   .nav-bar-links{
-    width: 945px !important;
+    width: 945px;
   }
-  .home-header1{ 
-    padding: 32px 230px 12px !important;
+  .home-header1{
+        padding: 32px 230px 12px;
   }
-  .home-header{
-    padding: 32px 230px 12px !important;
+    .home-header{
+    padding: 32px 230px 12px;
   }
+  .who-are-we-header{
+      width: 203px;
+  }
+  .who-are-we1{
+    font-size: 26px;
+  }
+  .about-us{
+    font-size: 25px;
+  }
+  .who-are-we-container{
+    width: 920px;
+  }
+  .an-american-registered{
+    font-size: 21px;
+  }
+  .our-community-message-containe{
+    width: 920px;
+  }
+  .ipo-policy-container{
+    width: 920px;
+  } 
+  .ipo-policy-the-container {
+    width: 920px;
+  }
+  .chart-title-wrapper{
+    width: 270px;
+  }
+  .distribution-content {
+    width: 920px;
+  }
+  .howtobuybitcoinlimitedcontaine{
+    width: 920px;
+  } 
+  .vision-wrapper{
+    width: 920px;
+  }
+  .telegram-channels-container{
+    width: 920px;
+  }
+  .gallery-item{
+    width: 920px;
+  }
+  .gallery-image-icon{
+    height: 529px;
+  } 
+  .image-placeholder-icon , .image-placeholder-icon1{
+    height: 254px;
+  }
+  .company-motto-container{
+    width: 920px;
+  } 
+  .our-vision-to-make-our-cryptoc-parent {
+    width: 920px;
+  }
+  .white-pappers-header{
+    width: 220px;
+  }
+  .white-pappers-container {
+    width: 920px !important;
+  }
+  .visa-card-card {
+    width: 374px;
+  }
+  .smallnumbercard {
+    width: 253px;
+  }
+  .platform-card {
+    width: 253px;
+  }
+  .platform-pic-mob-2{
+    width: 240px;
+  }
+  .small-number-pic{
+    width: 240px;
+  }
+  .future-plan-header {
+    width: 175px;
+  }
+  .future-plan-container{
+    width: 920px;
+  }
+  .marketing_plan {
+    width: 605px;
+  }
+  .faq-container{
+    padding: 38px 156px 38px 40px;
+  }
+  .how-to-buy-bitcoin-limited-con1 {
+    width: 920px;
+  }
+  .social-links {
+    width: 920px;
+  }
+  .footercontainer{
+    width: 920px;
+  }
+  .install-our-app-container{
+    width: 350px;
+  } 
 }
+
+/* .white-pappers-cards  */
