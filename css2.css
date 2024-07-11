@@ -4862,6 +4862,9 @@ cursor: pointer;
   .explore-various-platforms, .for-additional-information, .utilize-our-website ,.regarding-the-developers, .the-currency-will, .the-initial-price, .the-maximum-offering, .this-policy-will, .we-kindly-ask ,.span2, .we-will-strive , .we-are-part-container , .within-a-few {
     font-size: 23px;
   }
+  .utilize-our-website , .explore-various-platforms , .for-additional-information{
+    margin-bottom: 10px;
+  }
   .ipo-policy-header{
     width: 161px;
   }
@@ -4889,6 +4892,15 @@ cursor: pointer;
   }
   .x9d2144328e1d618f54cd38540f5ee1{
     font-size: 22px;
+  }
+  .symbol-btcle{
+    font-size: 24px;
+  }
+  .ipo-policy-datails , .target-price-details{
+    margin-top: -40px;
+  }
+  .we-will-strive-to-achieve-a-ma{
+    margin-top: 20px;
   }
 }
 
