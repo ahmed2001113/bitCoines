@@ -4753,13 +4753,13 @@ cursor: pointer;
     width: 1030px !important;
   }
   .visa-card-card {
-    width: 374px;
+    width: 415px;
   }
   .smallnumbercard {
-    width: 253px;
+    width: 270px;
   }
   .platform-card {
-    width: 253px;
+    width: 270px;
   }
   .small-number-pic , .platform-pic-mob-2 {
     width: 240px;
@@ -4829,7 +4829,7 @@ cursor: pointer;
   .app-store-icon{
     width: 165px;
   }
-  .our-community-message-header{
+  .our-community-message-header , .disclaimer{
     width: 340px;
     margin-top: -40px;
   }
@@ -4839,7 +4839,7 @@ cursor: pointer;
   .to-the-bitcoin{
     font-size: 24px;
   }
-  .ipo-policy1 ,.ipo-policy2 ,.bitcoindistributionpie ,.targetprice , .several-factors-support , .development , .small-number , .telegram-channels-language , .company-motto1 , .our-vision1 , .our-mission , .white-papper ,.future-plan ,.disclaimer {
+  .ipo-policy1 ,.ipo-policy2 ,.bitcoindistributionpie ,.targetprice , .several-factors-support , .development , .small-number , .telegram-channels-language , .company-motto1 , .our-vision1 , .our-mission , .white-papper ,.future-plan  {
     font-size: 26px;
   }
   .limited ,.platform , .visa-card{
@@ -4854,6 +4854,21 @@ cursor: pointer;
   }
   .explore-various-platforms, .for-additional-information, .utilize-our-website ,.regarding-the-developers, .the-currency-will, .the-initial-price, .the-maximum-offering, .this-policy-will, .we-kindly-ask ,.span2, .we-will-strive , .our-nontraditional-strategies , .its-limited-and , .we-are-part-container{
     font-size: 24px;
+  }
+  .ipo-policy-header{
+    width: 160px;
+  }
+  .ipo-policy-header{
+    width: 275px;
+  }
+  .telegram-channels-language {
+    width: 242px;
+  }
+  .our-vision-to-make-our-cryptoc-parent , .converting-tokens-into, .to-continuously-and{
+    font-size: 22px;
+  }
+  .white-pappers-cards{
+    width: 100%;
   }
 }
 
