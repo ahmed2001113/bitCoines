@@ -4761,11 +4761,9 @@ cursor: pointer;
   .platform-card {
     width: 253px;
   }
-  .platform-pic-mob-2{
+  .small-number-pic , .platform-pic-mob-2 {
     width: 240px;
-  }
-  .small-number-pic{
-    width: 240px;
+    height: 230px;
   }
   .future-plan-header {
     width: 175px;
@@ -4791,5 +4789,33 @@ cursor: pointer;
   .install-our-app-container{
     width: 350px;
   } 
+  .hero-section-vedio {
+    width: 495px;
+    padding: 0px;
+  }
+  .video-placeholder-icon{
+    height:495px;
+  }
+  .about-us-pic{
+    width: 220px;
+  } 
+  .video-background-icon{
+    height:495px;
+  } 
+  .our-community-message-pic{
+    height:495px;
+  }
+  .target-placeholder-icon{
+    height:495px;
+  }
+  .aboutuspic-icon{
+    width: 220px;
+  }
+  .visa-card-pic-mob-2 {
+    height:230px;
+  }
+  .vedio-3-icon{
+    height:495px;
+  }
 }
 
