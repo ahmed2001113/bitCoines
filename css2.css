@@ -4603,55 +4603,55 @@ cursor: pointer;
   }
 }
 /* new */
-@media (min-width: 1230px) {
+@media screen and (min-width: 1230px) {
   .frequently-asked-questions2{
-    font-size: 35px;
+    font-size: 35px !important;
   }
   .who-are-we-header1{
-    width: 500px;
+    width: 500px !important;
   }
   .who-are-we-container1{
     width: 800px !important;
   }
   .lorem-ipsum-dolor{
-    font-size: 20px;
+    font-size: 20px !important;
   }
   .faq{
-    display: flex;
-    align-items: center;
+    display: flex !important;
+    align-items: center !important;
   }
   .lorem-ipsum-dolor{
-    height: 25px;
+    height: 25px !important;
   }
   .who-are-we2{
-    font-size:15px ;
+    font-size:15px  !important;
   }
   .who-are-we3{
-    font-size:15px ;
+    font-size:15px !important;
   }
   .who-are-we4{
-    font-size:15px ;
+    font-size:15px !important;
   }
   .who-are-we5{
-    font-size:15px ;
+    font-size:15px !important;
   }
   .who-are-we6{
-    font-size:15px ;
+    font-size:15px !important;
   }
   .who-are-we7{
-    font-size:15px ;
+    font-size:15px !important;
   }
   .who-are-we8{
-    font-size:15px ;
+    font-size:15px !important;
   }
   .who-are-we9{
-    font-size:15px ;
+    font-size:15px !important;
   }
   .who-are-we10{
-    font-size:15px ;
+    font-size:15px !important;
   }
   .who-are-we11{
-    font-size:15px ;
+    font-size:15px !important;
   }
   .whoarewe {
     font-size:15px !important ;
@@ -4681,12 +4681,15 @@ cursor: pointer;
     font-size:15px !important ;
   }
   .navigation  {
-    width: 900px;
+    width: 900px !important;
   }
   .nav-bar-links{
-    width: 945px;
+    width: 945px !important;
   }
-  .home-header1 , .home-header{
-    padding: 32px 230px 12px;
+  .home-header1{ 
+    padding: 32px 230px 12px !important;
+  }
+  .home-header{
+    padding: 32px 230px 12px !important;
   }
 }
