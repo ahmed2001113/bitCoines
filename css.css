@@ -258,7 +258,7 @@ background-color: grey;
 }
 .smallDiv{
     width: 100%;
-    padding: 4px 9px;
+    padding: 4px 7px;
     border-radius: 10px;
     background-color: #1b1e28 !important;
     height: 100%;
@@ -331,7 +331,10 @@ background-color: grey;
     padding-bottom: 100%;
     position: relative;
 }
-
+.colors{
+            display: flex;
+            align-items: center;       
+        }
 .square-container2 .squareImage2 {
     position: absolute;
     top: 0;
@@ -633,7 +636,26 @@ font-size: 12px;
     color:#e0bc85d3; 
     font-size: 11px;
 }
-
+.marketing_planMob h5{
+    color: #f0f0f2;
+    font-weight:450 ;
+    line-height: 7px;
+  }  
+  .marketing_planMob p{
+    color: #f0f0f2;
+    margin-bottom: 0px;
+  }  
+  .marketing_planMob{  
+    height: 90px;
+    border:1px solid #71757f;
+    width: 85%;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 @media (min-width:800px) {
     #homeBody{
         display: block !important;
@@ -651,6 +673,15 @@ font-size: 12px;
 }
 
 @media (min-width:750px) and (max-width:800px) {
+        .marketing_planMob h5{
+       font-size: 30px;
+      }  
+      .marketing_planMob p{
+        font-size: 20px;
+      }
+      .marketing_planMob{  
+        height: 110px;
+      }
     .deal-9948770-icon{
         width: 65%;
     }
@@ -829,6 +860,15 @@ font-size: 12px;
 }
 
 @media (min-width:700px) and (max-width:750px) {
+            .marketing_planMob h5{
+            font-size: 28px;
+           }  
+           .marketing_planMob p{
+             font-size: 20px;
+           }
+           .marketing_planMob{  
+             height: 110px;
+           }
     .deal-9948770-icon{
         width: 65%;
     }
@@ -1004,6 +1044,15 @@ font-size: 12px;
 }
 
 @media (min-width:650px) and (max-width:700px) {
+            .marketing_planMob h5{
+            font-size: 26px;
+            }  
+            .marketing_planMob p{
+                font-size: 19px;
+            }
+            .marketing_planMob{  
+                height: 105px;
+            }
     .deal-9948770-icon{
         width: 65%;
     }
@@ -1179,6 +1228,15 @@ font-size: 12px;
 }
 
 @media (min-width:600px) and (max-width:650px) {
+            .marketing_planMob h5{
+            font-size: 24px;
+            }  
+            .marketing_planMob p{
+                font-size: 18px;
+            }
+            .marketing_planMob{  
+                height: 90px;
+            }
     .deal-9948770-icon{
         width: 85%;
     }
@@ -1363,6 +1421,15 @@ font-size: 12px;
 }
 
 @media (min-width:560px) and (max-width:600px) {
+        .marketing_planMob h5{
+      font-size: 22px;
+    }  
+    .marketing_planMob p{
+        font-size: 16px;
+    }
+    .marketing_planMob{  
+        height: 90px;
+    }
     .deal-9948770-icon{
         width: 86%;
     }
@@ -1548,6 +1615,15 @@ font-size: 12px;
 }
 
 @media (min-width:520px) and (max-width:560px) {
+        .marketing_planMob h5{
+      font-size: 20px;
+    }  
+    .marketing_planMob p{
+        font-size: 15px;
+    }
+    .marketing_planMob{  
+        height: 90px;
+    }
     .deal-9948770-icon{
         width: 87%;
     }
@@ -1736,6 +1812,15 @@ font-size: 12px;
 }
 
 @media  (min-width:470px) and  (max-width:520px) {
+     .marketing_planMob h5{
+      font-size: 19px;
+    }  
+    .marketing_planMob p{
+        font-size: 14px;
+    }
+    .marketing_planMob{  
+        height: 90px;
+    }
     .deal-9948770-icon{
         width: 90%;
     }
@@ -1777,10 +1862,7 @@ font-size: 12px;
     .mobNav{
         display: block !important;
     }
-    .colors{
-        display: flex;
-        align-items: center;       
-    }
+    
     .button-mob-2 {
         border-radius: 200px;
         background: linear-gradient(
@@ -1914,6 +1996,15 @@ font-size: 12px;
 }
 
 @media  (min-width:430px) and  (max-width:470px) {
+     .marketing_planMob h5{
+      font-size: 18px;
+    }  
+    .marketing_planMob p{
+        font-size: 13px;
+    }
+    .marketing_planMob{  
+        height: 85px;
+    }
     .deal-9948770-icon{
         width: 90%;
     }
@@ -1937,10 +2028,7 @@ font-size: 12px;
     .mobNav{
         display: block !important;
     }
-    .colors{
-        display: flex;
-        align-items: center;       
-    }
+    
     .button-mob-2 {
         border-radius: 200px;
         background: linear-gradient(
@@ -1989,7 +2077,7 @@ font-size: 12px;
         line-height: 10px;
         }
     .h65{
-        font-size: 15px;
+        font-size: 13px;
     }
     .h63{
         font-size: 14px;
@@ -2078,6 +2166,15 @@ font-size: 12px;
 }
 
 @media (min-width:380px) and (max-width:430px) {
+       .marketing_planMob h5{
+            font-size: 16px;
+          }  
+          .marketing_planMob p{
+              font-size: 11px;
+          }
+          .marketing_planMob{  
+              height: 70px;
+          }
     .l7{
         width: 95px ;
     }
@@ -2140,7 +2237,7 @@ font-size: 12px;
         line-height: 10px;
     }
     .h65{
-        font-size: 13px;
+        font-size: 12px;
     }
     .h63{
         font-size: 10px;
@@ -2240,7 +2337,26 @@ font-size: 12px;
     }
 }
 
+@media (max-width:340px) {
+        .h65{
+        font-size: 10px !important;
+    }
+}
+@media (max-width:310px) {
+        .h65{
+        font-size: 8px !important;
+    }
+}
 @media (max-width:380px) {
+    .marketing_planMob h5{
+        font-size: 15px;
+      }  
+      .marketing_planMob p{
+          font-size: 10px;
+      }
+      .marketing_planMob{  
+          height: 70px;
+      }
     .cobyImg{
         width: 15px;
     }
@@ -2268,14 +2384,11 @@ font-size: 12px;
     .l6{
         width: 70px;
     }
-    .development-icon-mob-3{
-        width: 20px;
-    }
     .development-icon-mob-4{
-        width: 23px;
+        width: 25px;
     }
     .development-icon-mob-3{
-        width: 21px;
+        width: 23px;
     }
     .buttonMob2{
         display: block;
@@ -2302,7 +2415,7 @@ font-size: 12px;
         line-height: 10px;
     }
     .h65{
-        font-size: 12px;
+        font-size: 11px;
     }
     .h63{
         font-size: 10px;
