@@ -4831,11 +4831,28 @@ cursor: pointer;
   }
   .our-community-message-header{
     width: 340px;
+    margin-top: -40px;
   }
   .our-community-message{
     font-size: 26px;
   }
   .to-the-bitcoin{
+    font-size: 24px;
+  }
+  .ipo-policy1 ,.ipo-policy2 ,.bitcoindistributionpie ,.targetprice , .several-factors-support , .development , .small-number , .telegram-channels-language , .company-motto1 , .our-vision1 , .our-mission , .white-papper ,.future-plan ,.disclaimer {
+    font-size: 26px;
+  }
+  .limited ,.platform , .visa-card{
+    font-size: 20px;
+  }
+  .through-our-platform{
+    font-size: 14px;
+  } 
+  .several-factors-support{
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .explore-various-platforms, .for-additional-information, .utilize-our-website ,.regarding-the-developers, .the-currency-will, .the-initial-price, .the-maximum-offering, .this-policy-will, .we-kindly-ask ,.span2, .we-will-strive , .our-nontraditional-strategies , .its-limited-and , .we-are-part-container{
     font-size: 24px;
   }
 }
