@@ -3556,7 +3556,9 @@ cursor: pointer;
   .disclaimer {
     font-size: var(--font-size-lgi);
     line-height: 29px;
+    width: 118px;
   }
+
   .we-are-part-container {
     font-size: var(--regular-16px-size);
     line-height: 24px;
@@ -4753,13 +4755,13 @@ cursor: pointer;
     width: 1030px !important;
   }
   .visa-card-card {
-    width: 415px;
+    width: 425px;
   }
   .smallnumbercard {
-    width: 270px;
+    width: 275px;
   }
   .platform-card {
-    width: 270px;
+    width: 275px;
   }
   .small-number-pic , .platform-pic-mob-2 {
     width: 240px;
@@ -4829,7 +4831,8 @@ cursor: pointer;
   .app-store-icon{
     width: 165px;
   }
-  .our-community-message-header , .disclaimer{
+
+  .our-community-message-header {
     width: 340px;
     margin-top: -40px;
   }
